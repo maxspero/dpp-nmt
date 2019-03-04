@@ -272,9 +272,6 @@ class NMT(nn.Module):
                 value: List[str]: the decoded target sentence, represented as a list of words
                 score: float: the log-likelihood of the target sentence
         """
-        ## A4 code
-        # src_sents_var = self.vocab.src.to_input_tensor([src_sent], self.device)
-        ## End A4 code
 
         src_sents_var = self.vocab.src.to_input_tensor_char([src_sent], self.device)
 
