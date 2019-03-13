@@ -2,6 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
+Neural Machine Translation with k-dpp sampling
+Max Spero <maxspero@cs.stanford.edu>
+Jon Braatz <jfbraatz@stanford.edu>
+
+Adapted from:
 CS224N 2018-19: Homework 5
 nmt_model.py: NMT Model
 Pencheng Yin <pcyin@cs.cmu.edu>
@@ -20,12 +25,13 @@ from nmt_model import NMT
 from model_embeddings import ModelEmbeddings
 from char_decoder import CharDecoder
 from dpp import sample_k_dpp
+import random
+import time
 
-Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 TOGGLE_PRINT = False
 PRINT_HYPOTHESES = True 
 
-import random
+Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
 class DPPNMT(nn.Module):
     """ Simple Neural Machine Translation Model:
@@ -87,6 +93,7 @@ class DPPNMT(nn.Module):
             self.dropout = nmt_model.dropout
 
             self.charDecoder = nmt_model.charDecoder
+
 
     def forward(self, source: List[List[str]], target: List[List[str]]) -> torch.Tensor:
         """ Take a mini-batch of source and target sentences, compute the log-likelihood of
@@ -292,22 +299,6 @@ class DPPNMT(nn.Module):
         completed_hypotheses = []
 
 
-        ######### ALSO ADDED THIS ############
-        # word_ids = torch.tensor(
-        #     [self.vocab.tgt[self.vocab.tgt.id2word[id]]
-        #         for id in range(len(self.vocab.tgt))],
-        #     dtype=torch.long, device=self.device)
-        # embeddings = self.model_embeddings(word_ids)
-        # ids = list(range(len(self.vocab.tgt)))
-        # TODO:
-        # do something like this but for all words????
-        words = [[self.vocab.tgt.id2word[id]] for id in range(len(self.vocab.tgt.word2id))]
-        words_char_tensor = self.vocab.tgt.to_input_tensor_char(words, device=self.device)
-        embeddings = self.model_embeddings_target(words_char_tensor).squeeze(0)
-        if TOGGLE_PRINT:
-            print("embeddings", embeddings.shape)
-        ######### END ############
-
         t = 0
         while len(completed_hypotheses) < beam_size and t < max_decoding_time_step:
             t += 1
@@ -353,8 +344,8 @@ class DPPNMT(nn.Module):
             ###### END TOP K HERE ####### 
 
             ###### START DPP HERE ####### 
+            self.timer("While loop setup")
             top_cand_hyp_scores, top_cand_hyp_pos = self.kdpp(
-                embeddings,
                 att_t,
                 src_encodings,
                 src_encodings_att_linear,
@@ -363,6 +354,7 @@ class DPPNMT(nn.Module):
                 contiuating_hyp_scores,
                 live_hyp_num,
             )
+            self.timer("kDPP")
             #### END DPP HERE ####
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
@@ -456,11 +448,30 @@ class DPPNMT(nn.Module):
 
         torch.save(params, path)
 
+    def timer(self, message=None):
+        if message is None or not hasattr(self, "last_time") or self.last_time is None:
+            self.last_time = time.time()
+        else:
+            new_time = time.time()
+            print("%s: %f" % (message, new_time - self.last_time))
+            self.last_time = new_time
+
     def topk(self, contiuating_hyp_scores, live_hyp_num):
         top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
         return top_cand_hyp_scores, top_cand_hyp_pos
 
-    def kdpp(self, embeddings, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, contiuating_hyp_scores, live_hyp_num):
+    def word_embeddings(self):
+        if not hasattr(self, "word_embeddings_cached"):
+            self.timer()
+            words = [[self.vocab.tgt.id2word[id]] for id in range(len(self.vocab.tgt.word2id))]
+            words_char_tensor = self.vocab.tgt.to_input_tensor_char(words, device=self.device)
+            self.word_embeddings_cached = self.model_embeddings_target(words_char_tensor).squeeze(0)
+            if TOGGLE_PRINT:
+                print("embeddings", embeddings.shape)
+            self.timer("Embeddings")
+        return self.word_embeddings_cached
+
+    def kdpp(self, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, contiuating_hyp_scores, live_hyp_num):
         # for every element in contiuating_hyp_scores, I need to get the target
         # word embedding, take another step, get that output, normalize, and multiply by
         # the corresponding element of log_p_t
@@ -469,7 +480,7 @@ class DPPNMT(nn.Module):
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
         att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
-        embeddings_repeated = embeddings.repeat(num_hyps, 1)
+        embeddings_repeated = self.word_embeddings().repeat(num_hyps, 1)
         x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
         x=x[top_cand_hyp_pos]
         batch_size = x.shape[0]
