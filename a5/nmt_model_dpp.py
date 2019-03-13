@@ -291,14 +291,17 @@ class DPPNMT(nn.Module):
 
 
         ######### ALSO ADDED THIS ############
-        word_ids = torch.tensor(
-            [self.vocab.tgt[self.vocab.tgt.id2word[id]]
-                for id in range(len(self.vocab.tgt))],
-            dtype=torch.long, device=self.device)
+        # word_ids = torch.tensor(
+        #     [self.vocab.tgt[self.vocab.tgt.id2word[id]]
+        #         for id in range(len(self.vocab.tgt))],
+        #     dtype=torch.long, device=self.device)
+        # embeddings = self.model_embeddings(word_ids)
+        # ids = list(range(len(self.vocab.tgt)))
         # TODO:
         # do something like this but for all words????
-        # y_tm1 = self.vocab.tgt.to_input_tensor_char(list([hyp[-1]] for hyp in hypotheses), device=self.device)
-        embeddings = self.model_embeddings_target(word_ids)
+        words = [[self.vocab.tgt.id2word[id]] for id in range(len(self.vocab.tgt.word2id))]
+        words_char_tensor = self.vocab.tgt.to_input_tensor_char(words, device=self.device)
+        embeddings = self.model_embeddings_target(words_char_tensor).squeeze(0)
         print("embeddings", embeddings.shape)
         ######### END ############
 
@@ -346,7 +349,16 @@ class DPPNMT(nn.Module):
             ###### END TOP K HERE ####### 
 
             ###### START DPP HERE ####### 
-            top_cand_hyp_scores, top_cand_hyp_pos = self.kdpp(contiuating_hyp_scores, live_hyp_num)
+            top_cand_hyp_scores, top_cand_hyp_pos = self.kdpp(
+                embeddings,
+                att_t,
+                src_encodings,
+                src_encodings_att_linear,
+                h_t,
+                cell_t,
+                contiuating_hyp_scores,
+                live_hyp_num,
+            )
             #### END DPP HERE ####
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
@@ -440,16 +452,19 @@ class DPPNMT(nn.Module):
         top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
         return top_cand_hyp_scores, top_cand_hyp_pos
 
-    def kdpp(self, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, top_cand_hyp_pos, top_cand_hyp_scores, live_hyp_num):
+    def kdpp(self, embeddings, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, contiuating_hyp_scores, live_hyp_num):
         # for every element in contiuating_hyp_scores, I need to get the target
         # word embedding, take another step, get that output, normalize, and multiply by
         # the corresponding element of log_p_t
         # TODO: need to duplicate each num_hyps times
-        vocab_size = len(self.vocab.tgt)
+        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
+        vocab_size = len(self.vocab.tgt.word2id)
+        print("vocab size", vocab_size)
         num_hyps, embed_size = att_t.shape
         att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
         print("att_t_repeated", att_t_repeated.shape)
-        x = torch.cat([embeddings.repeat(num_hyps, 1), att_t_repeated], dim=-1)
+        embeddings_repeated = embeddings.repeat(num_hyps, 1)
+        x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
         print("top_cand_hyp_pos", top_cand_hyp_pos.shape)
         x=x[top_cand_hyp_pos]
         print("new_x", x.shape)
@@ -495,7 +510,7 @@ class DPPNMT(nn.Module):
         print("new_top_cand_hyp_pos", new_top_cand_hyp_pos)
         top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
         print(top_cand_hyp_pos)
-        top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
+        top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
         print("new_top_hyp_pos", top_cand_hyp_pos.shape)
         print("new_top_hyp_scores", top_cand_hyp_scores.shape)
         return top_cand_hyp_scores, top_cand_hyp_pos
