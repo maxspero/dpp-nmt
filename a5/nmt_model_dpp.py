@@ -295,7 +295,10 @@ class DPPNMT(nn.Module):
             [self.vocab.tgt[self.vocab.tgt.id2word[id]]
                 for id in range(len(self.vocab.tgt))],
             dtype=torch.long, device=self.device)
-        embeddings = self.model_embeddings.target(word_ids)
+        # TODO:
+        # do something like this but for all words????
+        # y_tm1 = self.vocab.tgt.to_input_tensor_char(list([hyp[-1]] for hyp in hypotheses), device=self.device)
+        embeddings = self.model_embeddings_target(word_ids)
         print("embeddings", embeddings.shape)
         ######### END ############
 
@@ -415,7 +418,7 @@ class DPPNMT(nn.Module):
         args = params['args']
         nmt_model = NMT(vocab=params['vocab'], no_char_decoder=no_char_decoder, **args)
         nmt_model.load_state_dict(params['state_dict'])
-        model = DPPNMT(nmt_model=nmt_model)
+        model = DPPNMT(nmt_model=nmt_model, vocab=params['vocab'], no_char_decoder=no_char_decoder, **args)
 
         return model
 
