@@ -15,6 +15,7 @@ Usage:
 Options:
     -h --help                               show this screen.
     --cuda                                  use GPU
+    --dpp                                   use DPP for beam search
     --train-src=<file>                      train source file
     --train-tgt=<file>                      train target file
     --dev-src=<file>                        dev source file
@@ -50,6 +51,7 @@ import time
 from docopt import docopt
 from nltk.translate.bleu_score import corpus_bleu, sentence_bleu, SmoothingFunction
 from nmt_model import Hypothesis, NMT
+from nmt_model_dpp import DPPNMT
 import numpy as np
 from typing import List, Tuple, Dict, Set, Union
 from tqdm import tqdm
@@ -274,7 +276,12 @@ def decode(args: Dict[str, str]):
         test_data_tgt = read_corpus(args['TEST_TARGET_FILE'], source='tgt')
 
     print("load model from {}".format(args['MODEL_PATH']), file=sys.stderr)
-    model = NMT.load(args['MODEL_PATH'], no_char_decoder=args['--no-char-decoder'])
+    if args['--dpp']:
+        print("Using DPPNMT model")
+        model = DPPNMT.load(args['MODEL_PATH'], no_char_decoder=args['--no-char-decoder'])
+    else:
+        print("Using normal NMT model")
+        model = NMT.load(args['MODEL_PATH'], no_char_decoder=args['--no-char-decoder'])
 
     if args['--cuda']:
         model = model.to(torch.device("cuda:0"))

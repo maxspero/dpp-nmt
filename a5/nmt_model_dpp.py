@@ -327,7 +327,7 @@ class DPPNMT(nn.Module):
                                                       exp_src_encodings, exp_src_encodings_att_linear, enc_masks=None)
 
             print("h_t", h_t.shape)		
-	        print("cell_t", cell_t.shape)		
+            print("cell_t", cell_t.shape)		
             print("att_t", att_t.shape)
 
             # log probabilities over target words
@@ -413,8 +413,9 @@ class DPPNMT(nn.Module):
         """
         params = torch.load(model_path, map_location=lambda storage, loc: storage)
         args = params['args']
-        model = NMT(vocab=params['vocab'], no_char_decoder=no_char_decoder, **args)
-        model.load_state_dict(params['state_dict'])
+        nmt_model = NMT(vocab=params['vocab'], no_char_decoder=no_char_decoder, **args)
+        nmt_model.load_state_dict(params['state_dict'])
+        model = DPPNMT(nmt_model=nmt_model)
 
         return model
 
