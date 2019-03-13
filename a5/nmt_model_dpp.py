@@ -503,7 +503,8 @@ class DPPNMT(nn.Module):
 
         new_top_cand_hyp_pos = sample_k_dpp(L, k=live_hyp_num)
         top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
-        top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
+        # top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
+        top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
         if TOGGLE_PRINT:
             print("vocab size", vocab_size)
             print("att_t_repeated", att_t_repeated.shape)
