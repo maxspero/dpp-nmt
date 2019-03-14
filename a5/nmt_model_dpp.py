@@ -344,7 +344,6 @@ class DPPNMT(nn.Module):
             ###### END TOP K HERE ####### 
 
             ###### START DPP HERE ####### 
-            self.timer("While loop setup")
             top_cand_hyp_scores, top_cand_hyp_pos = self.kdpp(
                 att_t,
                 src_encodings,
@@ -354,7 +353,6 @@ class DPPNMT(nn.Module):
                 contiuating_hyp_scores,
                 live_hyp_num,
             )
-            self.timer("kDPP")
             #### END DPP HERE ####
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
@@ -476,11 +474,15 @@ class DPPNMT(nn.Module):
         # word embedding, take another step, get that output, normalize, and multiply by
         # the corresponding element of log_p_t
         # TODO: need to duplicate each num_hyps times
+        self.timer()
         top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
+        self.timer("topk")
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
         att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
+        self.timer("att_repeat")
         embeddings_repeated = self.word_embeddings().repeat(num_hyps, 1)
+        self.timer("embeddings_repeat")
         x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
         x=x[top_cand_hyp_pos]
         batch_size = x.shape[0]
@@ -495,10 +497,12 @@ class DPPNMT(nn.Module):
         # Might have to stretch h_t, and cell_t
         new_h_t = h_t.repeat(1, vocab_size).view(-1, embed_size)
         new_cell_t = cell_t.repeat(1, vocab_size).view(-1, embed_size)
+        self.timer("more repeats")
         new_h_t = new_h_t[top_cand_hyp_pos]
         new_cell_t = new_cell_t[top_cand_hyp_pos]
         (h_t_dpp, _), _, _  = self.step(x, (new_h_t, new_cell_t),
                                         new_exp_src_encodings, new_exp_src_encodings_att_linear, enc_masks=None)
+        self.timer("step")
         # num_hyps = len(contiuating_hyp_scores.shape[0])/len(self.vocab.tgt)
 
         norms = torch.norm(h_t_dpp, p=2, dim=1, keepdim=True)
@@ -510,9 +514,12 @@ class DPPNMT(nn.Module):
         quality_scores = torch.exp(top_cand_hyp_scores.unsqueeze(1)).expand_as(unit_vectors)
         # TODO: maybe normalize the quality_scores?
         features = unit_vectors * quality_scores
+        self.timer("scores")
         L = torch.mm(features, features.t())
+        self.timer("L")
 
         new_top_cand_hyp_pos = sample_k_dpp(L, k=live_hyp_num)
+        self.timer("sample_k_dpp")
         top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
         # top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
         top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
