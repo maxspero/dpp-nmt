@@ -540,9 +540,10 @@ class DPPNMT(nn.Module):
         unit_vectors = h_t_dpp.div(norms.expand_as(h_t_dpp))
         # new_p_t = log_p_t.repeat(1, vocab_size).view(-1, vocab_size)
         # print("new_p_t", log_p_t.shape)
+        # TODO: this returns e^{scores}... correct?
         quality_scores = torch.exp(top_cand_hyp_scores.unsqueeze(1)).expand_as(unit_vectors)
         # TODO: maybe normalize the quality_scores?
-        quality_scores = torch.exp(quality_scores, 1/2)
+        quality_scores = torch.pow(quality_scores, 1/2)
         features = unit_vectors * quality_scores
         self.timer("scores")
         L = torch.mm(features, features.t())
