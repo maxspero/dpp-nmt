@@ -29,7 +29,9 @@ import random
 import time
 
 TOGGLE_PRINT = False
-PRINT_HYPOTHESES = True 
+PRINT_TIMER = False
+PRINT_HYPOTHESES = False
+PRINT_HYPOTHESIS_TREE = False
 
 Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
@@ -301,6 +303,8 @@ class DPPNMT(nn.Module):
 
         t = 0
         while len(completed_hypotheses) < beam_size and t < max_decoding_time_step:
+            if PRINT_HYPOTHESIS_TREE:
+                print(sorted(hypotheses))
             t += 1
             hyp_num = len(hypotheses)
 
@@ -339,6 +343,7 @@ class DPPNMT(nn.Module):
             contiuating_hyp_scores = (hyp_scores.unsqueeze(1).expand_as(log_p_t) + log_p_t).view(-1)
 
 
+
             ###### START TOP K HERE ####### 
             # top_cand_hyp_scores, top_cand_hyp_pos = self.topk(contiuating_hyp_scores, live_hyp_num)
             ###### END TOP K HERE ####### 
@@ -353,6 +358,12 @@ class DPPNMT(nn.Module):
                 contiuating_hyp_scores,
                 live_hyp_num,
             )
+            if TOGGLE_PRINT:
+                top_cand_hyp_scores_topk, top_cand_hyp_pos_topk = self.topk(contiuating_hyp_scores, live_hyp_num)
+                print('topk', top_cand_hyp_scores_topk)
+                print('kdpp', top_cand_hyp_scores)
+                print('topk', top_cand_hyp_pos_topk)
+                print('kdpp', top_cand_hyp_pos)
             #### END DPP HERE ####
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
@@ -410,6 +421,7 @@ class DPPNMT(nn.Module):
         
         if PRINT_HYPOTHESES:
             print(completed_hypotheses)
+            print("**********************")
 
         return completed_hypotheses
 
@@ -447,12 +459,13 @@ class DPPNMT(nn.Module):
         torch.save(params, path)
 
     def timer(self, message=None):
-        if message is None or not hasattr(self, "last_time") or self.last_time is None:
-            self.last_time = time.time()
-        else:
-            new_time = time.time()
-            print("%s: %f" % (message, new_time - self.last_time))
-            self.last_time = new_time
+        if PRINT_TIMER:
+            if message is None or not hasattr(self, "last_time") or self.last_time is None:
+                self.last_time = time.time()
+            else:
+                new_time = time.time()
+                print("%s: %f" % (message, new_time - self.last_time))
+                self.last_time = new_time
 
     def topk(self, contiuating_hyp_scores, live_hyp_num):
         top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
@@ -475,13 +488,26 @@ class DPPNMT(nn.Module):
         # the corresponding element of log_p_t
         # TODO: need to duplicate each num_hyps times
         self.timer()
-        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
+        top_k_to_sample_from = 25
+        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=top_k_to_sample_from)
         self.timer("topk")
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
-        att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
+        #att_t_flattened = att_t.flatten()
+        #att_t_repeated = att_t_flattened.expand(vocab_size, -1)
+        # TODO: minimize data movement
+        # .repeat is super slow because its data copies
+        # but so is .contiguous 
+        # att_t_repeated = att_t_repeated.contiguous().view(-1, embed_size)
         self.timer("att_repeat")
-        embeddings_repeated = self.word_embeddings().repeat(num_hyps, 1)
+        att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
+        self.timer("att_repeat2")
+        # print("att_t_repeated", att_t_repeated.shape)
+        # print("att_t_repeated2", att_t_repeated2.shape)
+        self.timer("att_repeat")
+        embeddings = self.word_embeddings()
+        # embeddings_repeated = embeddings.expand(embeddings.shape[0] * num_hyps, -1)
+        embeddings_repeated =  embeddings.repeat(num_hyps, 1)
         self.timer("embeddings_repeat")
         x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
         x=x[top_cand_hyp_pos]
@@ -495,8 +521,11 @@ class DPPNMT(nn.Module):
                                                                        src_encodings_att_linear.size(2))
 
         # Might have to stretch h_t, and cell_t
+        # new_h_t = h_t.expand(vocab_size * h_t.shape[0], embed_size)
+        # new_cell_t = cell_t.expand(vocab_size * h_t.shape[0], embed_size)
         new_h_t = h_t.repeat(1, vocab_size).view(-1, embed_size)
         new_cell_t = cell_t.repeat(1, vocab_size).view(-1, embed_size)
+
         self.timer("more repeats")
         new_h_t = new_h_t[top_cand_hyp_pos]
         new_cell_t = new_cell_t[top_cand_hyp_pos]
@@ -518,7 +547,13 @@ class DPPNMT(nn.Module):
         L = torch.mm(features, features.t())
         self.timer("L")
 
-        new_top_cand_hyp_pos = sample_k_dpp(L, k=live_hyp_num)
+        try:
+            new_top_cand_hyp_pos = sample_k_dpp(L, k=live_hyp_num)
+        except Exception as e:
+            print("Error sampling from L, falling back to top k: %s" % e)
+            return self.topk(contiuating_hyp_scores, live_hyp_num)
+            
+            
         self.timer("sample_k_dpp")
         top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
         # top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
@@ -541,4 +576,5 @@ class DPPNMT(nn.Module):
             print(top_cand_hyp_pos)
             print("new_top_hyp_pos", top_cand_hyp_pos.shape)
             print("new_top_hyp_scores", top_cand_hyp_scores.shape)
+            print('top chosen: ', new_top_cand_hyp_pos)
         return top_cand_hyp_scores, top_cand_hyp_pos

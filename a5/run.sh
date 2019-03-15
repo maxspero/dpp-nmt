@@ -15,10 +15,18 @@ elif [ "$1" = "test_topk_local" ]; then
     mkdir -p outputs
     touch outputs/test_outputs_topk.txt
     python run.py decode model.bin ./en_es_data/test.es ./en_es_data/test.en outputs/test_outputs_topk.txt
+elif [ "$1" = "test_topk_local_small" ]; then
+    mkdir -p outputs
+    touch outputs/test_outputs_topk.txt
+    python run.py decode model.bin ./en_es_data/test_small.es ./en_es_data/test_small.en outputs/test_outputs_topk_small.txt
 elif [ "$1" = "test_dpp_local" ]; then
     mkdir -p outputs
     touch outputs/test_outputs_dpp.txt
     python run.py decode model.bin ./en_es_data/test.es ./en_es_data/test.en outputs/test_outputs_dpp.txt --dpp
+elif [ "$1" = "test_dpp_local_small" ]; then
+    mkdir -p outputs
+    touch outputs/test_outputs_dpp.txt
+    python run.py decode model.bin ./en_es_data/test_small.es ./en_es_data/test_small.en outputs/test_outputs_dpp_small.txt --dpp
 elif [ "$1" = "train_local_q1" ]; then
 	python run.py train --train-src=./en_es_data/train_tiny.es --train-tgt=./en_es_data/train_tiny.en \
         --dev-src=./en_es_data/dev_tiny.es --dev-tgt=./en_es_data/dev_tiny.en --vocab=vocab_tiny_q1.json --batch-size=2 \

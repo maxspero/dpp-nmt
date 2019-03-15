@@ -23,6 +23,9 @@ Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
 import random
 
+PRINT_HYPOTHESES = True
+PRINT_HYPOTHESIS_TREE = True
+
 class NMT(nn.Module):
     """ Simple Neural Machine Translation Model:
         - Bidrectional LSTM Encoder
@@ -293,6 +296,8 @@ class NMT(nn.Module):
 
         t = 0
         while len(completed_hypotheses) < beam_size and t < max_decoding_time_step:
+            if PRINT_HYPOTHESIS_TREE:
+                print(sorted(hypotheses))
             t += 1
             hyp_num = len(hypotheses)
 
@@ -378,6 +383,9 @@ class NMT(nn.Module):
                                                    score=hyp_scores[0].item()))
 
         completed_hypotheses.sort(key=lambda hyp: hyp.score, reverse=True)
+        if PRINT_HYPOTHESES:
+            print(completed_hypotheses)
+            print("**********************")
         return completed_hypotheses
 
     @property
