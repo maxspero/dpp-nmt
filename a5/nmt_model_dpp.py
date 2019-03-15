@@ -542,6 +542,7 @@ class DPPNMT(nn.Module):
         # print("new_p_t", log_p_t.shape)
         quality_scores = torch.exp(top_cand_hyp_scores.unsqueeze(1)).expand_as(unit_vectors)
         # TODO: maybe normalize the quality_scores?
+        quality_scores = torch.exp(quality_scores, 1/2)
         features = unit_vectors * quality_scores
         self.timer("scores")
         L = torch.mm(features, features.t())
