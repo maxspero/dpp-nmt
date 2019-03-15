@@ -798,3 +798,803 @@ Y cuando estemos en condiciones de pasarle esto a la prxima generacin y podamos 
 Vamos a tomar un proceso que normalmente podra llevar 100 mil aos y podemos comprimirlo a 1.000 aos y tal vez ocurra dentro de los prximos 100 aos.
 Estas son elecciones que sus nietos, o los nietos de sus nietos, van a tener ante ellos.
 Vamos a usar estas opciones en pos de una sociedad mejor, ms exitosa, ms considerada?
+O, vamos a elegir selectivamente diferentes atributos que queremos para algunos de nosotros pero no para los dems?
+Vamos a construir una sociedad que sea ms aburrida y ms uniforme o ms robusta y ms verstil?
+ste es el tipo de pregunta que vamos a tener que enfrentar.
+Y lo ms profundo de todo: vamos a ser capaces de desarrollar la sabidura y de heredar la sabidura necesaria para tomar estas decisiones sabiamente?
+Para bien o para mal, y antes de lo que podra pensarse, estas opciones van a depender de nosotros.
+Gracias.
+Imaginen una gran explosin cuando ests a 900 mts de altura
+Imaginen un avin lleno de humo.
+Imaginen un motor haciendo clac, clac, clac,
+clac, clac, clac, clac. Suena aterrador.
+Bien, yo tena un asiento nico ese da. Estaba sentado en el 1D.
+Era el nico que poda hablar con los asistentes de vuelo.
+As que de inmediato los mir, y dijeron: "No hay problema. Probablemente golpeamos algunas aves".
+El piloto ya haba virado el avin, y no estbamos tan lejos.
+Se poda ver Manhattan.
+Dos minutos despus, 3 cosas sucedieron al mismo tiempo.
+El piloto aline el avin con el ro Hudson.
+Generalmente esa no es la ruta.
+Apag los motores.
+Imaginen estar en un avin y sin ruidos.
+Y luego dijo 3 palabras --
+las 3 palabras ms desapasionadas que haya escuchado.
+Dijo, "Prepararse para el impacto".
+No tuve que hablar ms con la asistente de vuelo.
+Pude verlo en sus ojos,
+era terror. La vida se terminaba.
+Quiero compartir con ustedes 3 cosas que aprend sobre m mismo ese da.
+Aprend que todo cambia en un instante.
+Tenemos esta lista de cosas para hacer antes de morir, estas cosas que queremos hacer en vida, y pens en toda la gente a las que quera llegar y no lo hice, todas las cercas que quera reparar, todas las experiencias que he querido tener y nunca tuve.
+Mientras pensaba en eso ms adelante, Me vino una frase, que es, "Colecciono vinos malos".
+Porque si el vino est listo y la persona est ah, lo voy a abrir.
+Ya no quiero aplazar nada en la vida.
+Y esa urgencia, ese propsito, realmente ha cambiado mi vida.
+Lo segundo que aprend ese da -- y esto es mientras evitbamos el puente George Washington, que no fu por mucho -- Pens sobre, wow, Realmente siento un gran pesar.
+He vivido una buena vida.
+En mi humanidad y con mis errores He tratado de mejorar en todo lo que hice.
+Pero en mi humanidad tambin d lugar a mi ego.
+Y lamento el tiempo que desperdici en cosas que no importaban con gente que s importan.
+Y pens en mi relacin con mi esposa, con mis amigos, con la gente.
+Y despus, como medit en eso, Decid eliminar la energa negativa de mi vida.
+No es perfecta, pero es mucho mejor.
+En 2 aos no he tenido una pelea con mi esposa.
+Se siente de maravillas.
+Ya no trato de tener razn; Elijo ser felz.
+Lo tercero que aprend -- y esto es como que tu reloj mental va descontando, "15, 14, 13".
+Ves el agua aproximarse.
+Estoy diciendo, "Por favor vuela".
+No quiero que esto se rompa en 20 piezas como se ven en esos documentales.
+Y mientras bajbamos, tuve la sensacin de, wow, morir no da miedo.
+Es casi como que hemos estado preparandonos para ello toda nuestra vida.
+Pero fue muy triste.
+No me quera ir; amo mi vida.
+Y esa tristeza se enmarc en un nico pensamiento, que es, slo deseo una cosa.
+Ojal pudiera ver a mis hijos crecer.
+Un mes ms tarde, estaba en una actuacin de mi hija - primer grado, no mucho talento artstico ... ...todava.  Y grito, lloro, como un pequeo.
+Y para m, esa era toda la razn de ser del mundo.
+En ese punto comprend, al conectar esos dos puntos, que lo nico que importa en mi vida es ser un gran padre.
+Por sobre todo, la nica meta que tengo en la vida es ser un buen padre.
+Se me concedi un milagro, de no morir ese da.
+Y se me concedi otro regalo, que fue la posibilidad de mirar el futuro y volver y vivir de otra forma.
+A ustedes que estn volando hoy, los desafo a que imaginen que lo mismo les pasa en su avin -- y por favor que no sea as -- pero imaginen, y cmo cambiaran?
+Qu es lo que haran, que an esperan hacer porque piensan que van a vivir por siempre?
+Cmo cambiaran sus relaciones y la energa negativa en ellas?
+Y lo ms importante, estn siendo los mejores padres que pueden?
+Gracias.
+Claramente he sido bendecido en la vida con muchos proyectos asombrosos.
+Pero el ms genial en el que trabaj fue para este tipo.
+El tipo se llama TEMPT.
+TEMPT fue uno de los graffiteros ms importantes de los aos 80.
+Un da lleg a su casa despus de correr y dijo: "Pap, siento un hormigueo en las piernas".
+Y ese fue el inicio de la ELA.
+Hoy TEMPT tiene una parlisis total.
+Slo puede usar los ojos.
+Su trabajo influy en m.
+Tengo una empresa de diseo y animacin as que, obviamente, el graffiti es algo intrincado que admiramos y respetamos en el mundo del arte.
+Por eso decidimos que bamos a patrocinar a Tony, TEMPT, y a su causa.
+As que fui y me reun con su hermano y su padre y les dije: "Vamos a darles este dinero.
+Qu van a hacer con l?"
+Y su hermano dijo: "Slo quiero poder hablar con Tony otra vez.
+Slo quiero poder comunicarme con l y que l sea capaz de comunicarse conmigo".
+Y yo le dije: "Un segundo, no es que -he visto a Stephen Hawking- no es que todas las personas con parlisis pueden comunicarse mediante esos aparatos?"
+Y l dijo: "No, a menos que seas alguien importante y tengas un seguro muy bueno no puedes en realidad hacerlo.
+Estos dispositivos no son asequibles para la gente".
+Y yo le dije: "Bueno, cmo se comunican entonces?"
+Alguien a visto la pelcula "La escafandra y la mariposa"?
+Se comunican de esa manera... le van marcando con el dedo.
+Le dije: "Eso es arcaico. Cmo puede ser?"
+As que me present con el solo deseo de entregar un cheque y en vez de eso firm un cheque que no tena la menor idea de cmo iba a cubrir.
+Me compromet con su hermano y con su padre all en ese preciso momento, "Muy bien, este es el trato: Tony va a hablar, le vamos a construir una mquina, y vamos a encontrar una manera para que vuelva a hacer su arte otra vez.
+Porque es ridculo que alguien que tienen tanto en su interior no pueda comunicarlo".
+As que habl en una conferencia un par de meses despus.
+Conoc a estos tipos llamados GRL "Graffiti Research Lab", que tienen una tecnologa que les permite proyectar una luz en cualquier superficie y entonces, con un puntero lser, dibujan sobre eso y registran el espacio negativo.
+As que van por ah haciendo instalaciones de arte como sta.
+Todas las cosas que aparecen, ellos dicen, son parte de un ciclo de la vida.
+Primero empiezan con los rganos sexuales, luego con las malas palabras, despus con los ataques a Bush y, al final, la gente empieza a hacer arte.
+Pero siempre hubo un ciclo de la vida en sus presentaciones.
+Y as empez el viaje.
+Y unos dos aos despus, cerca de un ao despus, luego de mucha organizacin y de mucho mover las cosas de un lado a otro habamos logrado un par de cosas.
+Una, tocamos a las puertas de las compaas de seguros y conseguimos una mquina para que TEMPT pudiera comunicarse; una mquina como la de Stephen Hawking.
+Lo cual fue genial.
+Y, en serio, es de lo ms divertido; Yo le llamo Yoda porque al hablar con el tipo uno recibe un correo electrnico de l, y uno se dice: "No lo merezco. Este tipo es fantstico".
+La otra cosa que hicimos fue traer a siete programadores de todo el mundo -literalmente de todos los rincones del planeta- a nuestra casa.
+Mi esposa, los nios y yo, nos mudamos al garage de atrs y estos hackers y programadores y conspiradores y anarquistas tomaron el control de la casa.
+Muchos de nuestros amigos pensaron que hacamos algo totalmente estpido y que cuando regresramos habran quitado los cuadros de las paredes y en su lugar habra graffiti.
+Pero durante dos semanas programamos, fuimos al paseo martimo de Venice, mi hijo fue parte, mi perro tambin, y creamos esto.
+Se llama EyeWriter [EscritorOcular, NT] y pueden ver la descripcin.
+Son un par de gafas de sol baratas que compramos en el paseo martimo de Venice Beach, algo de alambre de cobre y cosas de Home Depot y Radio Shack.
+Tomamos una cmara PS3, la abrimos, la montamos sobre una luz de LED y ahora hay un dispositivo que es gratis -lo construye uno mismo; publicamos el cdigo gratis- el software se baja en forma gratuita.
+Y creamos un dispositivo que no tiene limitacin en lo absoluto.
+No hay compaa de seguro que diga "no".
+No hay hospital que pueda decir "no".
+Cualquier persona con parlisis hoy tiene acceso a dibujar y comunicarse usando slo sus ojos.
+Gracias.
+Muchas gracias a Uds. Eso fue impresionante.
+As, al final de las dos semanas regresamos a la habitacin de TEMPT.
+Me encanta esta foto porque sta es la habitacin de otra persona y esa es su habitacin.
+Haba todo este bullicio y ajetreo durante la gran inauguracin.
+Y luego de ms de un ao de planificacin, dos semanas de programacin, sesiones intensas de toda la noche, Tony volvi a dibujar por primera vez en siete aos.
+Y esta es una foto maravillosa porque este es el sistema de soporte de su vida y est mirando a travs del sistema de soporte de su vida.
+Le corrimos la cama para que pudiera ver.
+Y colocamos un proyector sobre una pared del estacionamiento de afuera del hospital.
+Y l volvi a dibujar por primera vez frente a su familia y amigos -y se imaginarn lo que fue el sentimiento en el estacionamiento.
+Lo gracioso fue que tuvimos que irrumpir en el estacionamiento as que sentimos como si estuviramos legitimando el graffiti tambin.
+Al final de esto l nos mand un correo electrnico y esto era lo que nos deca: "Esta fue la primera vez que dibujaba en siete aos.
+Me senta como si hubiera estado bajo el agua y alguien finalmente viniera a rescatarme y me sacara de all para que pudiera respirar".
+No es maravilloso?
+En cierta forma ese es nuestro grito de guerra.
+Eso es lo que nos mantiene en movimiento, desarrollando.
+Y tenemos un largo camino por recorrer con esto.
+Es un dispositivo genial pero es el equivalente de una Pantalla Mgica.
+Alguien con este potencial artstico merece mucho ms.
+Por eso estamos tratando de averiguar cmo mejorarlo y hacerlo ms rpido y robusto.
+Desde entonces hemos tenido todo tipo de reconocimiento.
+Hemos ganado muchos premios.
+Recuerden, es gratis; ninguno de nosotros est haciendo dinero con esto.
+Todo sale de nuestros propios bolsillos.
+Los premios fueron del tipo: "Oh, esto es fantstico".
+Armstrong tuite algo sobre nosotros y entonces, en diciembre, la revista Time nos reconoci como uno de los 50 mejores inventos de 2010, y fue realmente genial.
+Lo mejor de todo esto -y esto es lo que termina de cerrar el crculo- es que en abril de este ao en el Geffen del MOCA en el centro de Los ngeles va a haber una exhibicin llamada "Arte en las Calles".
+Y "Arte en las Calles" va a tener a los mejores exponentes del arte urbano -Banksy, Shepard Fairey, CAWs- todos ellos van a estar all.
+TEMPT va a estar en el show lo cual es bastante impresionante.
+As que, bsicamente esta es mi idea: si ves algo que no es posible, hazlo posible.
+Nada de lo que hay en esta habitacin era posible -el escenario, la computadora, el micrfono, el EscritorOcular- nada era posible en cierto momento.
+Hazlo posible... cualquier cosa de esta sala.
+No soy programador, nunca hice nada con tecnologa de reconocimiento ocular; simplemente reconoc algo y me asoci con gente maravillosa para poder hacer que suceda.
+Y estas son las preguntas que quiero que todos nos hagamos todos los das cuando nos encontremos con algo que sintamos que hay que hacer. Si no es ahora, cundo? Y si no soy yo, quin?
+Gracias muchachos.
+He pasado los ltimos aos metindome en situaciones generalmente muy difciles y al mismo tiempo un tanto peligrosas.
+Fui a la crcel... difcil.
+Trabaj en una mina de carbn... peligroso.
+Film en zonas de guerra... difcil y peligroso.
+Y pas 30 das comiendo solamente esto... divertido al principio, algo difcil en el medio, muy peligroso al final.
+De hecho, en gran parte de mi carrera me he estado sumergiendo en situaciones en apariencia horribles con el nico objetivo de tratar. de examinar cuestiones sociales de maneras que resulten atractivas, interesantes, y, con suerte, analizarlas de una manera que se vean entretenidas y accesibles para la audiencia.
+As que cuando supe que vendra aqu a hacer una TEDTalk sobre el mundo de las marcas y el patrocinio quise hacer algo un poco diferente.
+As, algunos pueden haberlo odo, o no, hace un par de semanas saqu un aviso en Ebay.
+Envi algunos mensajes en Facebook, algunos en Twitter, ofrec en venta los derechos del nombre de mi TEDTalk de 2011.
+Lo que haba era lo siguiente: "AQU SU NOMBRE presenta: mi TEDTalk de la que no tienen idea de qu se trata y segn contenido podra explotarle en la cara, especialmente si lo pongo en ridculo a Ud o a su compaa al hacerlo.
+Pero dicho esto, es una muy buena oportunidad meditica".
+Saben cunta gente mira estas TEDTalks?
+Mucha.
+Es un ttulo en progreso, por cierto.
+As que an con esa salvedad saba que alguien iba a comprar los derechos del nombre.
+Si me lo hubieran preguntado hace un ao no hubiera podido decrselos con certeza.
+Pero en el nuevo film en el que estoy trabajando, examinamos el mundo del marketing, de la publicidad.
+Y como dije anteriormente, me he metido en situaciones horribles en los ltimos aos pero nada me poda preparar, nada poda anticiparme, para algo tan difcil o tan peligroso como entrar a las salas con estos tipos.
+Ya ven, yo tena esta idea para una pelcula.
+Morgan Spurlock: Quiero hacer un film que trate de la colocacin de productos, el marketing y la publicidad, y que todo el film se financie con colocacin de productos, marketing y publicidad.
+La pelcula se va a llamar "La pelcula ms grande jams vendida".
+Lo que sucede en "La pelcula ms grande jams vendida" es que todo de arriba a abajo, de principio a fin, tiene imgenes de marca, todo el tiempo; desde el auspiciante que aparece antes del ttulo, la marca X.
+Ahora esta marca, Qualcomm Stadium, el Staples Center...
+estas personas se asociarn al film a perpetuidad... para siempre.
+Y as el film explora toda esta idea. (Michael Kassan: es redundante). Es qu? (MK: Es redundante). A perpetuidad, para siempre?
+Soy una pesona redundante. (MK: Solo lo digo). Fue ms por nfasis.
+Era "A perpetuidad. Para siempre".
+Pero no slo vamos a tener el patrocinador de la marca X en el ttulo sino que vamos a asegurarnos de agotar todas las categoras que podamos en el film.
+Quiz vendamos un zapato y se vuelve el zapato ms genial que hayas usado...
+el auto ms genial que hayas conducido en "La pelcula ms grande jams vendida", el mejor trago que hayas bebido, cortesa de "La pelcula ms grande jams vendida".
+Xavier Kochhar: La idea es entonces adems de mostrar las marcas como parte de la vida, hacerlas que financien el film? (MS: Hacer que financien el film). MS: Y en realidad mostramos el proceso completo de cmo funciona.
+El objetivo del film completo es la transparencia.
+Van a ver todo el proceso en esta pelcula.
+Esa es la idea completa, todo el film, de principio a fin.
+Y me encantara que CEG ayude a hacer que suceda.
+Robert Friedman: Ya sabes, es gracioso porque es la primera vez que oigo eso; es el mximo respeto por la audiencia.
+Guy: Sin embargo, no s cun receptiva va a ser la gente a eso.
+XK: Tienes una perspectiva... -no s si "ngulo" es muy negativo- pero sabes cmo va a repercutir? (MS: Ni idea). David Cohn: Cunto dinero hace falta para hacer esto?
+MS: Un milln y medio. (DC: Muy bien) John Kamen: creo que va a ser difcil la reunin con ellos pero que sin duda va a valer la pena convencer a un par de marcas grandes.
+XK: Quien sabe, quiz para el momento que salga la pelcula nos veamos como un montn de idiotas alegres.
+MS: Cul piensas que va a ser la respuesta?
+Stuart Ruderfer: La mayora de las respuestas sern "no".
+MS: Pero ser difcil de venderlo, por el film o por ser yo?
+JK: Ambas cosas.
+MS: ... significa que no eres muy optimista.
+As, me ayudan? Necesito ayuda.
+MK: Yo puedo ayudar.
+MS: Muy bien. (MK: Bien) Impresionante.
+MK: Tenemos que pensar en cules marcas.
+MS: S. (MK: Ese es el desafo) Cuando miras a la gente a la que tienes que tratar...
+MK: Tenemos algunos lugares a donde ir. (MS: Bien) Apaga la cmara.
+MS: Pens que "apaga la cmara" significaba tengamos una conversacin fuera de micrfono.
+Apaga la cmara significa "No queremos saber nada de tu pelcula".
+MS: Y as fue, una por una, todas estas compaas de repente desaparecieron.
+Ninguna quiso tener nada que ver con esta pelcula.
+Me sorprendi.
+No queran saber nada con este proyecto.
+Y qued muy impresionado; pens que el concepto de la publicidad, era presentarle el producto a tanta gente como fuera posible, Hacer que tanta gente lo viera como fuera posible.
+Especialmente en el mundo de hoy esta interseccin de nuevos medios y viejos medios y el escenario de los medios separados, no es la idea contar con ese nuevo vehculo digno de atencin que va a llevar el mensaje a las masas?
+No, eso era lo que yo pensaba.
+Pero el problema era, ya ven, que mi idea tena un error garrafal y ese error era ste.
+En realidad no, no haba tal error.
+No haba un error en absoluto.
+Esto habra estado bien.
+Pero el problema era lo que representa esta imagen.
+Vean, cuando uno busca imgenes de 'transparencia' en Google aparece...   esta es una de las primeras imgenes que aparecen.
+Me gusta tu manera de rodar, Sergey Brin. No.
+Este era el problema: la transparencia... libre de simulacin o engao; fcilmente detectado o visto; fcilmente comprensible; que se caracteriza por la visibilidad o accesibilidad de la informacin, sobre todo en las prcticas de negocio... siendo la ltima lnea quiz el problema ms grande.
+Ya ven, omos mucho sobre la transparencia en estos das.
+Nuestros polticos la nombran, el presidente la nombra, incluso los CEOs la nombran.
+Pero de repente cuando se trata de hacerla realidad algo cambia repentinamente.
+Pero por qu? Bueno, la transparencia da miedo...  como ese oso raro que an sigue rugiendo.
+Es impredecible...   Como este raro camino rural.
+Y tambin es muy arriesgado.
+Qu otra cosa es arriesgada?
+Comerse un tazn entero de Cool Whip.
+Eso es muy arriesgado.
+Cuando empec a hablar con las empresas y a decirles que queramos contar esta historia y dijeron: "No, queremos que cuentes 'una' historia.
+Queremos que cuentes una historia, pero que cuentes 'nuestra' historia".
+Vean, cuando yo era nio y mi padre me atrapaba en alguna mentira -y ah est l mirndome como sola hacerlo- deca: "Hijo, hay tres lados en cada historia.
+Est tu historia, est mi historia, y est la historia real".
+Como ven, en este film queramos contar la historia real.
+Pero con slo una empresa, una agencia queriendo ayudarme -y eso slo porque conoca a John Bond y Richard Kirshenbaum de muchos aos- me di cuenta que tendra que ir por mi cuenta, tendra que quitar al intermediario e ir a las empresas yo mismo con todo mi equipo.
+As que lo que empec a advertir de repente -lo que empec a darme cuenta- es que cuando empiezas a conversar con las empresas la idea de entender tu marca es un problema universal.
+MS: Tengo amigos que hacen pelculas grandes, enormes, gigantes y otros que hacen pelculas pequeas, independientes, como la ma.
+Y mis amigos que hacen pelculas de Hollywood grandes, gigantes, dicen que la razn por la que sus pelculas tienen tanto xito se debe a las marcas asociadas que tienen.
+Y luego mis amigos que hacen pelculas independientes dicen: "Bien, cmo se supone que vamos a competir con estas grandes, gigantes pelculas de Hollywood?"
+Y la pelcula se llama "La pelcula ms grande jams vendida".
+Cmo vamos a ver especficamente a Ban en la pelcula?
+Cada vez que estoy por salir, cada vez que abro mi botiqun, vern el desodorante Ban.
+En cualquier momento durante una entrevista con alguien puedo decir "Ests bien fresco para esta entrevista?
+Ests listo? Te ves un poco nervioso.
+Quiero ayudarte a que te calmes.
+Tal vez deberas ponerte un poco de esto antes de la entrevista".
+Y ah le ofrecera uno de estos aromas fabulosos.
+Tanto "Fusin Floral" como "Vientos del Paraso" van a tener su oportunidad.
+Vamos a tener tanto para hombre como para mujer; slido, a bolilla, en barra, como sea.
+Ese es el vistazo general.
+Ahora puedo contestar sus preguntas y darles un vistazo pormenorizado.
+Karen Frank: Somos una marca pequea.
+Similar al tipo de pelculas ms pequeas que contabas; somos ms bien una marca rival.
+Por eso no tenemos el presupuesto que tienen otras marcas.
+As que hacer cosas as, ya sabes, recordarle Ban a la gente es la razn por la que esto nos interesa.
+MS: Qu palabras usaran para describir a Ban?
+Ban est en blanco.
+KF: Esa es una gran pregunta.
+Mujer: Tecnologa superior.
+MS: Tecnologa no es la manera en que uno quiere describir algo que uno se pone en la axila.
+Hombre: Hablamos de algo audaz, fresco.
+Creo que "fresco" es una gran palabra que realmente pone a esta categora en positivo versus "combate el olor y el sudor".
+Te mantiene fresco.
+Cmo te mantenemos fresco ms tiempo? Con mejor frescura, ms frescura, tres veces ms fresco.
+Cosas como esas que resaltan los beneficios.
+MS: Y esa es una empresa multimillonaria.
+Qu hay de m? Qu hay de un tipo comn?
+Necesito hablarle al hombre de la calle, a las personas como yo, a los Pepes comunes.
+Ellos tienen que hablarme de mi marca.
+MS: Cmo definen Uds su marca?
+Hombre: Mmm mi marca?
+No s.
+Me gusta la ropa buena.
+Mujer: revivir los 80, 'patinadora punk' a menos que sea da de lavandera.
+MS: Est bien, qu es la marca Gerry?
+Gerry: Algo nico. (MS: nico) Hombre: Supongo que el tipo de gnero, el estilo que tengo sera como un 'glamour oscuro'.
+Me gustan mucho los colores oscuros, muchos grises y cosas as.
+Por lo general llevo accesorios como gafas de sol, o me gustan los cristales y similares.
+Mujer: si Dan fuera una marca podra ser un 'convertible clsico', Mercedes Benz.
+Hombre 2: la marca que soy, la llamara 'vuelo casual'.
+Mujer 2: En parte hippie, en parte yogui, en parte 'chica Brooklyn', no s.
+Hombre 3: Soy el tipo de las mascotas.
+Vendo juguetes para mascotas en el pas y en el mundo.
+As que supongo esa es mi marca.
+En mi pequeo sector, esa es mi marca.
+Hombre 4: Mi marca es FedEx porque entrego la mercadera.
+Hombre 5: Marca escritor-alcohlico fracasado.
+Es eso algo?
+Abogado: Soy marca abogado.
+Tom: Soy Tom.
+MS: Bueno, no todos podemos ser marca Tom, pero a menudo me clasifico en la interseccin de 'glamour oscuro' y 'vuelo casual'.
+Me di cuenta que necesitaba un experto.
+Necesitaba alguien que pudiera entrar en mi cabeza, alguien que pudiera ayudarme a entender lo que llaman la "personalidad de marca".
+Y encontr una empresa llamada Olson Zaltman en Pittsburg.
+Ellos le ayudaron a empresas como Nestl, Febreze, Hallmark a descubrir esa personalidad de marca.
+Si pudieron hacerlo para ellos, seguramente podan hacerlo para m.
+Abigail: Trajiste las fotos, cierto?
+MS: S. La primera foto es una foto familiar.
+A: Cuntame un poco cmo se relaciona con tus pensamientos y sentimientos tu forma de ser.
+MS: Estas personas modelan mi manera de ver el mundo.
+A: Cuntame de ese mundo.
+MS: Ese mundo? Creo que tu mundo es el mundo en el que vives... como la gente que te rodea, tus amigos, tu familia, el modo en que vives tu vida, el trabajo que haces.
+Todas esas cosas se originan y comienzan en un lugar y en mi caso se originan y empiezan en mi familia, en Virginia Occidental.
+A: Cul es la prxima de la que quieres hablar?
+MS: La prxima es "Este fue el mejor da de mi vida".
+A: Cmo se relaciona esto con tus pensamientos, sentimientos y tu forma de ser?
+MS: Es como quin quisiera ser yo.
+Me gustan las cosas diferentes.
+Me gustan las cosas raras. Me gustan las cosas raras.
+A: Cuntame del "porqu"... para qu nos sirve eso?
+Cul es el machete? En qu fase de pupa te encuentras ahora?
+Por qu es importante reiniciar? Qu representa el rojo?
+Cuntame un poco sobre eso.
+...un poco ms de ti, que no es quin eres.
+Qu otras metamorfosis has tenido?
+...no tiene que haber temor. En qu tipo de montaa rusa ests?
+MS: Ayyy! (A: Gracias) No, gracias.
+A: Gracias por tu paciencia. (MS: Gran trabajo) A: S. (MS: Muchas gracias) Muy bien.
+MS: S, no s lo que va a salir de esto.
+Haba mucha locura en todo esto.
+Lindsay Zaltman: Lo primero que vi fue esta idea de que hay dos lados distintos, pero complementarios, en tu personalidad de marca; la marca Morgan Spurlock es una marca consciente/ldica.
+Se yuxtaponen muy bien juntas.
+Y creo que hay casi una paradoja en ellas.
+Y creo que algunas empresas slo se centrarn en uno de sus puntos fuertes o en el otro en vez de centrarse en ambos.
+Muchas compaas tienden -y es la naturaleza humana- a evitar las cosas de las que no estn seguras; evitan el miedo, esos elementos, y t en realidad les das cabida y haces que se vuelvan algo positivo para ti, y es agradable ver eso.
+Qu otras marcas son as?
+La primera aqu es la clsica, Apple.
+Y se puede ver tambin aqu a Target, Wii, Mini de Mini Coopers y JetBlue.
+Ahora hay marcas ldicas y marcas conscientes, esas cosas que han ido y venido pero una marca ldico-consciente es algo bastante potente.
+MS: una marca ldico-consciente. Cul es tu marca?
+Si alguien te pide que describas tu identidad de marca, tu personalidad de marca, cul sera?
+Eres un atributo ascendente? Eres alguien que hace que la sangre fluya?
+O eres ms bien un atributo descendente?
+un poco ms calmado, reservado, conservador?
+Los atributos ascendentes son como ser ldico ser fresco como El Prncipe, contemporneo, aventurero, atrevido o audaz como Errol Flynn, rpido o gil, profano, dominante, mgico o mstico como Gandalf.
+O eres ms bien de atributo descendente?
+Eres consciente, sofisticado como 007?
+Eres establecido, tradicional, proveedor, protector?, te identificas con Oprah?
+Eres confiable, estable, familiar, confiable, seguro, sagrado, contemplativo o sabio, como el Dalai Lama o Yoda?
+En el transcurso de esta pelcula tuvimos a ms de 500 empresas, ascendentes y descendentes, que decan "no", no queran formar parte de este proyecto.
+No queran tener nada que ver con esta pelcula, principalmente porque no tendran control, no tendran control sobre el producto final.
+Nos permitieron contar la historia del neuromarketing, y llegamos a contar la historia en esta pelcula de cmo ahora usan la resonancia magntica para identificar los centros del deseo en el cerebro tanto para marketing comercial como para cine.
+Fuimos a San Paulo donde han prohibido la publicidad al aire libre.
+En toda la ciudad durante los ltimos 5 aos no hay vallas, no hay carteles, no hay volantes, nada.
+Y fuimos a distritos escolares en los que las empresas estn hacindose camino en las escuelas con problemas de liquidez en EE.UU.
+Lo increble para m es que los proyectos en los cuales he tenido la mayor respuesta o en los que he tenido ms xito son aquellos en los que he interactuado con cosas directamente.
+Y eso es lo que hicieron estas marcas.
+Quitaron a los intermediarios, quitaron a sus agencias, y dijeron quiz estas agencias no tienen mi mejor inters en mente.
+Voy a tratar directamente con el artista.
+Voy a trabajar con l para crear algo diferente, algo que va a hacer pensar a la gente, que va a desafiar la manera en que miramos el mundo.
+Y cmo les ha ido? Tuvieron xito?
+Bueno, desde que la pelcula se estren en el Festival de Sundance, echemos un vistazo.
+Segn Burrelles la pelcula se estren en enero, y desde entonces -y esto no es todo- hemos tenido 900 millones de impresiones en los medios para este film.
+Esto cubre solo un perodo de dos semanas y media.
+Eso es slo en lnea... ni prensa, ni TV.
+La pelcula todava no se distribuy.
+Todava no est en lnea. No est en streaming.
+Ni siquiera se ha presentado en otros pases todava.
+En ltima instancia, esta pelcula ya ha empezado a ganar impulso.
+Y no est mal pues casi todas las agencias con las que hablamos le aconsejaban a sus clientes no ser parte.
+Siempre he credo que si uno se arriesga, si uno toma riesgos, que en esos riesgos hay oportunidades.
+Creo que cuando uno saca a la gente de eso los est empujando al fracaso.
+Creo que cuando uno entrena a sus empleados en la aversin al riesgo est preparando a toda su empresa para carecer de recompensas.
+Siento que lo que tiene que suceder para avanzar es que tenemos que animar a la gente a arriesgarse.
+Tenemos que animar a la gente a que no tenga miedo de las oportunidades que pueden asustarlos.
+En ltima instancia, avanzar, creo que tenemos que darle lugar al miedo.
+Tenemos que poner a ese oso en una jaula.
+Abracemos el miedo. Abracemos el riesgo.
+De a una cucharada a la vez, tenemos que abrazar el riesgo.
+Y, en definitiva, tenemos que albergar a la transparencia.
+Hoy ms que nunca un poco de honestidad va a recorrer un largo camino.
+Y dicho esto, con honestidad y transparencia, toda mi charla "Abracemos la Transparencia" ha sido presentada por mis buenos amigos de EMC quienes por $7.100 compraron los derechos del nombre en Ebay.
+EMC: Convirtiendo grandes datos en grandes oportunidades para empresas de todo el mundo.
+EMC presenta "Abracemos la Transparencia".
+Muchas gracias gente.
+June Cohen: Entonces, Morgan, en nombre de la transparencia, que sucedi exactamente con esos $7.100?
+MS: Es una pregunta excepcional.
+En mi bolsillo tengo un cheque a nombre de la organizacin matriz de TED, la Fundacin Sapling, un cheque por $7.100 para ser aplicado a mi asistencia para TED del ao prximo.
+La idea detrs del gusano informtico Stuxnet es en realidad muy simple.
+No queremos que Irn obtenga la bomba nuclear.
+Su mayor activo para desarrollar armas nucleares es la planta de enriquecimiento de Uranio en Natanz.
+Las cajas grises que ven son sistemas de control en tiempo real.
+Si logramos comprometer estos sistemas que controlan velocidades y vlvulas, podemos causar un montn de problemas con la centrfuga.
+Las cajas grises no usan software de Windows; son de una tecnologa completamente diferente.
+Pero si logramos poner un virus efectivo de Windows en un ordenador porttil usado por un ingeniero para configurar esta caja gris, entonces estamos listos.
+Este es el plan detrs de Stuxnet.
+Comenzamos con un instalador Windows.
+La ojiva ingresa a la caja gris, daa la centrfuga, y el programa nuclear iran es demorado; misin cumplida.
+Es fcil, eh?
+Quiero contarles cmo descubrimos esto.
+Cuando comenzamos a investigar sobre Stuxnet hace 6 meses, el propsito era completamente desconocido.
+Lo nico que se saba es que es muy, muy complejo en la parte de Windows: el instalador usaba mltiples vulnerabilidades da-cero.
+Pareca querer hacer algo con estas cajas grises, estos sistemas de control.
+Eso nos llam la atencin, y comenzamos un experimento en el que infectamos nuestro entorno con Stuxnet y vimos qu pasaba con esto.
+Entonces pasaron cosas muy extraas.
+Stuxnet se comportaba como una rata de laboratorio a la que no le gustaba nuestro queso: lo ola, pero no quera comer.
+No tena sentido para m.
+Y luego de experimentar con diferentes sabores de queso, me di cuenta, y pens: Esto es un ataque dirigido.
+Es completamente dirigido."
+El instalador est buscando activamente en la caja gris si encuentra una configuracin especfica, e incluso si el programa que est tratando de infectar est efectivamente funcionando en ese lugar:
+si no, Stuxnet no hace nada.
+As que eso llam mi atencin, y comenzamos a trabajar en esto casi 24 horas al da, porque pens; "No sabemos cul es el objetivo."
+Podra ser, digamos por ejemplo, una planta de energa de EEUU, o una planta qumica en Alemania.
+Mejor que descubriramos el objetivo pronto.
+Entonces extrajimos y descompilamos el cdigo de ataque, y descubrimos que estaba estructurado en 2 bombas digitales: una pequea y una grande.
+Tambin vimos que estaban armados muy profesionalmente por gente que obviamente tena toda la informacin interna.
+Conocan todos los puntos por los que atacar.
+Probablemente incluso sepan cunto calza el operador.
+As que saben todo.
+Y si han escuchado que el instalador de Stuxnet es complejo y de alta tecnologa, djenme decirles: la carga es muy compleja.
+Est muy por encima de todo lo que hayamos visto antes.
+Aqu ven una muestra de este cdigo de ataque.
+Estamos hablando de alrededor de 15 mil lneas de cdigo.
+Se parece bastante al viejo lenguaje ensamblador.
+Quiero contarles cmo pudimos encontrarle sentido a este cdigo.
+Lo que buscbamos al principio eran llamadas a funciones del sistema, porque sabemos lo que hacen.
+Luego buscbamos temporizadores y estructuras de datos y tratbamos de relacionarlos con el mundo real, con potenciales objetivos del mundo real.
+Necesitamos teoras sobre destinatarios que podamos aprobar o desaprobar.
+Para llegar a teoras sobre objetivos, recordamos que es definitivamente un sabotaje violento, debe ser un blanco valioso, y est seguramente ubicado en Irn, porque es donde la mayora de las infecciones ha sido reportada.
+No se encuentran varios miles de objetivos en ese rea.
+Bsicamente se reduce a la planta de energa nuclear de Bushehr y a la planta de enriquecimiento de Natanz.
+Entonces le dije a mi asistente, "Treme una lista de todos los expertos en centrfugas y plantas de energa entre nuestros clientes."
+Los llam y les consult en un esfuerzo por conjugar su experiencia con lo que encontramos en cdigo y datos.
+Y funcion bastante bien.
+As que pudimos asociar la pequea ojiva digital con el control del rotor.
+El rotor es esa parte mvil dentro de la centrfuga, ese objeto negro que ven.
+Si manejan la velocidad de este rotor, ciertamente pueden quebrarlo e incluso hacer que la centrfuga explote.
+Lo que tambin vimos es que la meta del ataque era hacerlo lento y desconcertar en un obvio esfuerzo por volver locos a los ingenieros de mantenimiento, para que no pudieran resolver esto rpidamente.
+Intentamos descifrar la ojiva digital grande observando muy de cerca a los datos y sus estructuras.
+As, por ejemplo, el nmero 164 sobresale en ese cdigo, no se puede obviar.
+Empec a investigar literatura cientfica sobre cmo estas centrfugas son construidas en Natanz y encontr que son estructuradas en lo que se llama una cascada, y cada cascada contiene 164 centrfugas.
+Eso tena sentido, haba una coincidencia.
+Y se puso mejor an.
+Estas centrfugas en Irn estn divididas en 15 partes llamadas etapas.
+Y adivinen qu encontramos en el cdigo de ataque?
+Una estructura casi idntica.
+As que de nuevo, eso era una buena coincidencia.
+Esto nos dio mucha confianza en entender lo que tenamos entre manos.
+Para que no haya malentendidos: no fue as:
+los resultados han sido obtenidos tras varias semanas de trabajo duro.
+Habitualmente terminbamos en callejones sin salida y tenamos que volver a empezar.
+An as, descubrimos que ambas ojivas digitales apuntaban a un solo y mismo objetivo, pero desde diferentes ngulos.
+La ojiva pequea est tomando una cascada, y haciendo girar los rotores y ralentizndolos, y la ojiva grande se comunica con seis cascadas y manipulando vlvulas.
+En suma, estamos muy confiados en que hemos determinado cul es el destinatario.
+Es Natanz, y es slo Natanz.
+No debemos preocuparnos de que otros objetivos sean alcanzados por Stuxnet.
+Aqu les muestro unas cosas muy interesantes que vimos, realmente me impresionaron.
+Ah est la caja gris, y arriba se ven las centrfugas.
+Lo que esta cosa hace es interceptar los valores de entrada de los sensores por ejemplo, de los sensores de presin y los sensores de vibracin y provee cdigo legtimo, el cual todava ejecuta durante el ataque, con falsos datos de entrada.
+Y, crase o no, estos datos de entrada falsos son pregrabados por Stuxnet.
+Es como en las pelculas de Hollywood donde, durante el robo, la cmara de seguridad se alimenta de video pregrabado.
+Es genial eh?
+La idea aqu es obviamente no slo burlar a los operadores en el cuarto de control.
+Es realmente mucho ms peligrosa y agresiva.
+La idea es burlar un sistema de seguridad digital.
+Necesitamos sistemas de seguridad digital donde un operador humano no podra actuar rpido.
+Por ejemplo, en una planta de energa, cuando la gran turbina de vapor se pasa de velocidad, se deben abrir vlvulas de escape en un milisegundo.
+Obviamente, esto no puede hacerlo un operador humano.
+All es donde necesitamos sistemas de seguridad digital.
+Y cuando estn comprometidos, entonces pueden pasar cosas malas.
+La planta puede explotar.
+Y ni los operarios ni el sistema de seguridad lo notarn.
+Eso asusta.
+Pero puede ser peor.
+Lo que voy a decir es muy importante.
+Piensen en esto. Este ataque es genrico.
+No tiene nada que ver, especficamente, con centrfugas, con enriquecimiento de uranio.
+Podra funcionar tambin, por ejemplo, en una planta de energa, o en una fbrica automotriz.
+Es genrico.
+Y no tienes (como atacante) que diseminar esta carga con una llave USB, como vimos en el caso de Stuxnet.
+Tambin podras usar tecnologa convencional de gusanos para diseminarlo.
+Diseminarlo lo ms posible.
+Y si hicieras eso, con lo que terminaras es con una ciber-arma de destruccin masiva.
+Esa es la consecuencia que debemos enfrentar.
+Desafortunadamente, el mayor nmero de objetivos para tales ataques no est en Medio Oriente.
+Est en los Estados Unidos y en Japn.
+Todas las reas verdes son espacios con gran nmero de objetivos.
+Debemos enfrentar las consecuencias, y mejor que nos empecemos a preparar ahora.
+Gracias.
+Chris Anderson: Tengo una pregunta.
+Ralph, se ha hecho pblico en muchos lados que la gente asume que el Mossad es la principal entidad detrs de esto.
+Cul es tu opinin?
+Ralph Langnet: Okey, realmente quieren escuchar esto?
+S. Okey.
+Mi opinin es que el Mossad est involucrado, pero el motor no es Israel:
+el motor detrs de esto es la superpotencia ciberntica.
+Existe una sola, y sa es los Estados Unidos, afortunadamente, afortunadamente.
+Porque, de otro modo, nuestros problemas seran an mayores.
+CA: Gracias por atemorizarnos. Gracias, Ralph.
+Quiero que se imaginen un robot que se pueda llevar y que d habilidades sobrehumanas. u otro que haga que usuarios de sillas de ruedas se levanten y vuelvan a caminar.
+En "Berkely Bionics" llamamos a estos robots, exoesqueletos.
+No son nada distinto de algo que se pone en la maana, le da a uno una gran fuerza, que adems le incrementa su velocidad, y le ayuda, por ejemplo, a manejar el equilibrio.
+En realidad es la integracin verdadera del hombre y la mquina.
+Pero no solo eso - lo puede integrar y conectarlo con el universo y con otros entes exteriores.
+Esto no es una idea irreal.
+Para mostrarles ahora en lo que estamos trabajando comenzamos por hablar del soldado estadounidense que, en promedio, debe llevar sobre su espalda una carga de 45 kilos, y se le est exigiendo llevar an ms equipo.
+Obviamente, esto conduce a algunas complicaciones importantes - lesiones en la espalda, en el 30% de los soldados - con daos crnicos de espalda.
+Decidimos contemplar este desafo y crear un exoesqueleto que pudiese ayudar a manejar el asunto.
+Permtanme presentarles el HULC - o Porta Cargas Humano Universal
+Soldado: Con el exoesqueleto HULC puedo portar 90 kilos por terrenos variables durante muchas horas.
+Su diseo flexible, permite ponerse en cuclillas arrastrarse y ejecutar movimientos con gran agilidad.
+Percibe lo que quiero hacer, o a dnde quiero ir, y luego aumenta mi fuerza y mi resistencia.
+Eythor Bender: Estamos listos, con nuestro socio industrial, para producir este aparato, este nuevo exoesqueleto, este ao.
+O sea, que es una realidad.
+Volvamos ahora la mirada hacia los usuarios de sillas de ruedas, sobre lo que me siento particularmente apasionado.
+Hay 68 millones de personas aproximadamente, en sillas de ruedas, en todo el mundo.
+Como un 1% de la poblacin total.
+Y este es un clculo realmente conservador.
+Hablamos de algo que ocurre con frecuencia, personas muy jvenes, con daos en la columna vertebral que al comenzar su vida - a los 20, 30 o 40 aos - chocan contra un muro y la silla de ruedas resulta ser su nica opcin.
+Tambin hablamos de la poblacin que envejece que se multiplica rpidamente.
+Su nica opcin, muchas veces - por una lesin cerebral o alguna otra complicacin - es la silla de ruedas.
+Y esto ha sido as durante los ltimos 500 aos, desde su exitosa aparicin, como debo reconocer.
+As, decidimos comenzar por escribir un nuevo captulo sobre movilidad.
+Permtanme presentarles el eLEGS que est usando Amanda Boxtel quien hace 19 aos tuvo una lesin en la columna vertebral, y como resultado no pudo volver a caminar por 19 aos, hasta ahora.
+Amanda Boxtel: Gracias.
+EB: Amanda est usando nuestro eLEGS, que mencionaba.
+Tiene unos sensores -
+completamente no invasivos en las muletas que envan seales al computador de a bordo, aqu en la espalda.
+Tambin aqu hay unas bateras que le dan energa a los motores en las caderas, y en las rodillas, y la hacen avanzar con este andar suave y muy natural.
+AB: Tena 24 aos en la cima de mi vida cuando, por un extrao salto en el aire, esquiando cuesta abajo qued paralizada.
+En una fraccin de segundo, perd toda sensacin y todo movimiento de la pelvis hacia abajo.
+Poco tiempo despus, un doctor entr a mi habitacin en el hospital, y me dijo: "Amanda, nunca volvers a caminar".
+Eso ocurri hace 19 aos.
+As me rob hasta la ltima pizca de esperanza de mi ser.
+La tecnologa de adaptacin desde entonces, me ha permitido aprender a deslizarme cuesta abajo en esqus, escalar rocas e incluso montar en bicicleta de mano.
+Pero no han inventado nada que me permita caminar, hasta ahora.
+Gracias.
+EB: Como pueden ver, tenemos la tecnologa, tenemos las plataformas para sentarnos y hablar con ustedes.
+Est en nuestras manos, y tenemos todo el potencial aqu para cambiarle la vida a futuras generaciones - no solo de soldados, sino a Amanda, y a todos los usuarios de sillas de ruedas, a todos.
+AB: Gracias.
+Acabo de regresar de una comunidad que tiene el secreto de la supervivencia humana.
+Es un lugar donde las mujeres tienen la batuta, practican sexo para decir hola, y el juego es la orden del da... donde la diversin es algo serio.
+Y no, no es el festival del Hombre Ardiente o San Francisco.
+Damas y caballeros, conozcan a sus primos.
+Este es el mundo de los bonobos salvajes de las selvas de Congo.
+Los bonobos son, junto con los chimpancs, sus parientes vivos ms cercanos.
+Eso significa que todos compartimos un ancestro comn, una abuela evolutiva, que vivi hace unos 6 millones de aos.
+Ahora bien, los chimpancs son conocidos por su agresin.
+Pero, por desgracia, hemos hecho demasiado hincapi en este aspecto en nuestras narrativas de la evolucin humana.
+Pero los bonobos nos muestran el otro lado de la moneda.
+Mientras que los chimpancs son dominados por tipos grandes, aterradores, la sociedad bonobo est a cargo de hembras con poder.
+Estos muchachos han creado algo especial, ya que esto conduce a una sociedad muy tolerante donde la violencia mortal todava no se ha observado.
+Pero, por desgracia, los bonobos son los menos comprendidos de los grandes simios.
+Viven en las profundidades de la selva congolea, y ha sido muy difcil estudiarlos.
+El Congo es una paradoja... una tierra de extraordinaria biodiversidad y belleza, pero tambin el corazn de la tiniebla misma... escenario de un conflicto violento que se ha prolongado por dcadas y causado casi tantas muertes como la Primera Guerra Mundial.
+No es de extraar que esta destruccin tambin ponga en peligro la supervivencia del bonobo.
+El comercio de carne de caza y la deforestacin hacen que no se pueda llenar ni un estadio con los bonobos que quedan en el mundo... y, honestamente, no estamos ni seguros de ello.
+Sin embargo, en esta tierra de violencia y caos se puede or la risa escondida meciendo los rboles.
+Quines son estos primos?
+Los conocemos como los simios "haz el amor, no la guerra", ya que tienen sexo frecuente, promiscuo y bisexual para manejar conflictos y resolver problemas sociales.
+No estoy diciendo que sta es la solucin a todos los problemas de la Humanidad dado que la vida de los bonobo es ms que el Kama Sutra.
+A los bonobos, como a los humanos, les encanta jugar a lo largo de toda su vida.
+Jugar no es slo un juego de nios.
+Para nosotros y para ellos el juego es fundamental para establecer vnculos y fomentar la tolerancia.
+Con l aprendemos a confiar, y aprendemos las reglas del juego.
+El juego aumenta la creatividad y la resiliencia y tiene que ver con la generacin de diversidad... diversidad de interacciones, diversidad de comportamientos, diversidad de conexiones.
+Y cuando uno observa el juego bonobo ve las races evolutivas mismas de la risa, la danza y el ritual humanos.
+El juego es el pegamento que nos une.
+No s cmo juegan ustedes pero quiero mostrarles un par de videos nicos recin tomados del medio silvestre.
+Primero, es un juego de pelota estilo bonobo; y no hablo de ftbol.
+Aqu tenemos a una hembra y un macho jvenes en medio de una persecucin.
+Miren lo que est haciendo ella.
+Podra ser el origen evolutivo de la frase: "lo tiene agarrado de las pelotas".
+Slo que creo que en este caso a l le encanta, no?
+S.
+As que el juego sexual es comn tanto en bonobos como en humanos.
+Y este video realmente es interesante porque muestra... este video realmente es interesante porque muestra la inventiva de traer elementos inusuales al juego -como los testculos- y tambin cmo el juego requiere confianza y fomenta la confianza... y al mismo tiempo es de lo ms divertido.
+Pero el juego es polimrfico.
+El juego es polimrfico, puede adoptar muchas formas, algunas de las cuales son ms tranquilas, imaginativas, curiosas... quiz el lugar donde se redescubre el asombro.
+Y quiero que vean... esta es Fuku, una hembra joven, que est jugando con agua tranquilamente.
+Creo que, como ella, a veces jugamos solos, y exploramos los lmites de nuestros mundos interior y exterior.
+Y es esa curiosidad ldica la que nos impulsa a explorar, a interactuar. Y luego las conexiones inesperadas que formamos son el semillero real de la creatividad.
+Estas son slo pequeas muestras de la comprensin que los bonobo nos dan de nuestro pasado y presente.
+Pero tambin tienen un secreto para nuestro futuro, un futuro en el que tenemos que adaptarnos a un mundo cada vez ms difcil con mayor creatividad y mayor cooperacin.
+El secreto es que el juego es la clave de estas capacidades.
+En otras palabras, el juego es nuestro comodn de adaptacin.
+Para adaptarnos con xito a un mundo que cambia tenemos que jugar.
+Pero, aprovecharemos al mximo nuestra capacidad de juego?
+El juego no es frvolo;
+el juego es esencial.
+Para bonobos y humanos por igual, la vida no es slo cruel y despiadada.
+Cuando parece lo menos apropiado jugar, pueden ser los momentos en que sea lo ms urgente.
+Por eso, compaeros primates, aceptemos este regalo de la evolucin y juguemos juntos mientras redescubrimos la creatividad, la amistad y el asombro.
+Gracias.
+En Nueva York soy responsable de desarrollo de una organizacin sin fines de lucro llamada Robin Hood.
+Cuando no estoy combatiendo la pobreza, combato incendios como asistente de capitn en un cuerpo de bomberos voluntarios.
+Y, en nuestra ciudad, donde los voluntarios complementan a un personal altamente calificado uno tiene que llegar al sitio del incendio muy pronto para entrar en accin.
+Recuerdo mi primer incendio.
+Yo era el segundo voluntario en el sitio, as que tena una probabilidad bastante alta de ir.
+Pero an as hubo una carrera a pie contra los otros voluntarios para llegar al capitn a cargo y averiguar cul era nuestra tarea.
+Cuando encontr al capitn, estaba enfrascado en una conversacin con la propietaria que sin duda atravesaba uno de los peores das de su vida.
+Estbamos en plena noche, ella estaba de pie afuera en la lluvia, bajo un paraguas, en pijama, descalza, mientras su casa estaba en llamas.
+El otro voluntario que acababa de llegar antes que yo, -llammosle Lex Luther-  lleg primero hasta el capitn y ste le pidi que entrara y salvara al perro de la duea de casa.
+El perro! Yo estaba 'tan celoso'!
+Ah estaba un abogado o gestor de dinero que, durante el resto de su vida, tendra que decirle a la gente que entr en un edificio en llamas para salvar a un ser vivo slo porque me gan por 5 segundos.
+Bueno, yo era el siguiente.
+El capitn me hizo un ademn.
+Dijo: "Bezos, necesito que entre a la casa.
+Necesito que suba, atraviese el fuego, y le traiga a esta mujer un par de zapatos".
+Lo juro.
+No era exactamente lo que esperaba pero fui... sub las escaleras, al final del pasillo, pas a los bomberos 'reales' que a esa altura ms o menos haban terminado de apagar el fuego y entr al cuarto principal en busca de un par de zapatos.
+S lo que estn pensando, pero no soy un hroe.
+Llev mi carga de vuelta por la escalera donde conoc a mi Nmesis y al precioso perro en la puerta principal.
+Sacamos de la casa los tesoros para la duea de casa donde, como era de esperar, su tesoro recibi mucha ms atencin que el mo.
+Unas semanas ms tarde el departamento recibi una carta de la duea de casa agradecindonos por el valiente esfuerzo demostrado para salvar su casa.
+La amabilidad que ella observ por sobre lo dems fue que alguien le haba alcanzado incluso un par de zapatos.
+Tanto en mi vocacin en Robin Hood como en mi vocacin como bombero voluntario soy testigo de actos de generosidad y amabilidad en una escala monumental, pero tambin de actos de gracia y coraje a nivel individual.
+Y saben qu he aprendido?
+Todo tiene su importancia.
+Entonces, cuando miro en esta sala a personas que han logrado, o estn por lograr, niveles notables de xito me gustara recordarles esto: no esperen.
+No esperen a ganar el primer milln para marcar la diferencia en la vida de alguien.
+Si tienen algo para dar, denlo ahora.
+Sirvan comida en un comedor, limpien un parque del vecindario,
+sean mentores.
+No todos los das vamos a tener la oportunidad de salvar la vida de alguien pero cada da vamos a poder influir la vida de alguien.
+As que entren al juego; salven los zapatos.
+Gracias.
+Bruno Giussani: Mark, Mark, regresa.
+Mark Bezos: Gracias.
+Esto puede parecer extrao, pero soy una gran admiradora del bloque de concreto.
+Los primeros bloques de concreto se fabricaron en 1868 con una idea muy simple: mdulos de cemento de una medida fija que encajan entre s.
+Muy rpidamente, estos se convirtieron en la unidad de construccin ms usada en el mundo.
+Ellos nos han permitido construir cosas ms grandes que nosotros, como edificios o puentes, un ladrillo a la vez.
+Esencialmente, estos bloques se han convertido en los pilares de nuestro tiempo.
+Casi un centenar de aos despus, en 1947, a LEGO se le ocurri esto.
+Se le llam ladrillo de ensamblaje automtico.
+Y en unos pocos aos, los ladrillos de LEGO llegaron a todos los hogares.
+Se estima que se han fabricado ms de 400 mil millones o 75 ladrillos por cada persona en el planeta.
+No hay que ser ingeniero para construir hermosos puentes, edificios o casas.
+LEGO lo hizo accesible.
+LEGO simplemente adopt el bloque de concreto, el favorito en el mundo, y lo convirti en una pieza fundamental de nuestra imaginacin.
+Mientras tanto, exactamente ese mismo ao, en los laboratorios Bell, la siguiente revolucin estaba a punto de anunciarse: el nuevo bloque de construccin.
+El transistor era una unidad pequea de plstico que nos llevara de un mundo de ladrillos estticos apilados unos sobre otros a un mundo donde todo era interactivo.
+Al igual que el bloque de concreto, el transistor permite crear circuitos mucho mayores y ms complejos, un ladrillo a la vez.
+Pero hay una diferencia principal: El transistor era solo para expertos.
+Yo personalmente no lo acepto, que los bloques de construccin de nuestro tiempo estn reservados a los expertos, as que decid cambiarlo.
+Hace 8 aos, cuando estaba en el Media Lab, comenc a explorar la idea de llevar el poder de los ingenieros a las manos de los artistas y diseadores.
+Hace unos aos empec a desarrollar littleBits.
+Les voy a mostrar cmo funcionan.
+LittleBits son mdulos electrnicos cada uno con una funcin especfica.
+Estn prediseados para ser luz, sonido, motores y sensores.
+Y lo mejor de todo es que se unen mediante imanes.
+As que no se pueden colocar de manera equivocada.
+Los ladrillos tienen un cdigo de colores.
+El verde es la salida, el azul es la corriente, el rosa es la entrada y el de color naranja es el alambre.
+As que solo hay que ensamblar un azul con uno verde y muy rpidamente se puede empezar a hacer circuitos mayores.
+Un azul con uno verde producen luz.
+Podemos poner un botn en el medio y as tenemos un regulador.
+Si cambiamos el botn por un mdulo de pulso, que est aqu, y ahora tenemos una luz intermitente.
+Aadimos este timbre para crear ms impacto y tenemos una mquina de ruido.
+Voy a detener esto.
+As que ms all del simple juego, littleBits son en realidad muy potentes.
+En lugar de tener que programar, conectar y soldar, littleBits nos permite programar usando gestos intuitivos muy simples.
+Para hacer parpadear ms rpido o ms lento, simplemente se gira este botn que hace que el pulso sea ms rpido o ms lento.
+La idea detrs de littleBits es que sea una coleccin creciente.
+Queremos que todas las interacciones en el mundo se reduzcan a ladrillos listos para usar.
+Luces, sonidos, paneles solares, motores; todo debe ser accesible.
+Hemos dado littleBits a los nios para verlos jugar con ellos.
+Y ha sido una experiencia increble.
+Lo mejor es cmo empiezan a entender la electrnica de todos los das que no se aprende en las escuelas.
+Por ejemplo, cmo funciona una luz de noche, o por qu la puerta de un ascensor se mantiene abierta, o cmo un iPod responde al tacto.
+Tambin hemos llevado littleBits a las escuelas de diseo.
+As, por ejemplo, los diseadores sin experiencia alguna en electrnica comienzan a jugar con littleBits como un material.
+Aqu se puede ver, con botellas de papel y fieltro, tenemos a Geordie creando...
+(Sonido metlico)  Hace unas semanas llevamos littleBits a los diseadores de la Escuela de diseo de Rhode Island, que no tienen experiencia alguna en ingeniera, solo en cartn, madera y papel y les dijimos: Hagan algo.
+He aqu un ejemplo de un proyecto que han hecho, un can de confeti activado por movimiento.
+Pero esperen, aqu viene mi proyecto favorito.
+Es una langosta hecha de plastilina que tiene miedo de la oscuridad.
+Para estos no ingenieros, littleBits se convirti en otro material, la electrnica se convirti en otro material.
+Y queremos que este material est al alcance de todos.
+Por ello, littleBits tiene cdigo abierto.
+Se puede visitar la pgina web, descargar todos los archivos de diseo y fabricarlos.
+Queremos alentar un mundo de creadores, inventores y colaboradores porque este mundo en el que vivimos, este mundo interactivo, es nuestro.
+As que adelante y a inventar.
+Gracias.
+Hoy voy a hablarles de los descubrimientos inesperados.
+Yo trabajo en la industria de la tecnologa solar.
+Y mi pequea empresa busca involucrarnos con el medioambiente enfocndonos en
+la colaboracin distribuida.
+Este es un pequeo video de lo que hacemos.
+Mmmm. Esperen un momento.
+Se puede demorar un poco en cargar.
+Podemos... podemos continuar mejor dejamos el video a un lado
+No.
+Esto no es...
+Muy bien.
+La tecnologa solar es...
+Oh, Ya se me trmino el tiempo?
+Muy bien. Muchas gracias.
+Hace un par de aos lanc una iniciativa para reclutar a los mejores diseadores y tcnicos para que se tomen un ao y trabajen en un entorno que represente casi todo lo que se supone que detestan; les pedimos que trabajen en el gobierno.
+La iniciativa se llam 'Code for America' y seran como unos Cuerpos de Paz para tecnfilos.
+Seleccionamos algunos miembros cada ao y los pusimos a trabajar con los municipios.
+En vez de mandarlos al Tercer Mundo los mandamos al salvaje mundo municipal.
+Hicieron grandes aplicaciones; trabajaron con los empleados municipales.
+Su tarea consiste en mostrar las posibilidades de la tecnologa actual.
+Conozcan a Al.
+Al es un hidrante de la ciudad de Boston.
+Aqu aparece como si buscara una cita, pero lo que realmente busca es que alguien lo limpie cuando queda atrapado por la nieve porque sabe que no es muy bueno apagando incendios cuando est cubierto por un metro de nieve.
+Cmo lleg a pedir ayuda de esta manera tan singular?
+El ao pasado en Boston tenamos un equipo de miembros de 'Code for America'.
+Estaban all en febrero y en ese momento nevaba mucho el ao pasado.
+Se dieron cuenta que la ciudad nunca limpiaba estos hidrantes.
+Pero uno de los miembros llamado Erik Michaels-Ober not algo ms: que los ciudadanos limpiaban con palas las aceras justo en frente de ellos.
+As que hizo como cualquier buen programador, desarroll una aplicacin.
+Es una linda aplicacin en la que se puede adoptar un hidrante.
+Uno acepta limpiarlo cuando nieva.
+Al hacerlo, uno le pone un nombre, en este caso le puso Al.
+Si no lo haces, alguien puede robrtela.
+O sea, tiene una componente ldica.
+Es una aplicacin modesta.
+Quiz sea la ms pequea de las 21 aplicaciones programadas el ao pasado.
+Pero hace algo que ninguna otra tecnologa del gobierno logra.
+Y se extiende en forma viral.
+Un responsable de sistemas de la Ciudad de Honolulu al ver esta aplicacin se dio cuenta de que poda usarla, no para la nieve, sino para que los ciudadanos adopten sirenas de tsunami.
+Es muy importante que funcionen estas sirenas de tsunami, pero la gente se roba las bateras.
+Por eso le pide a los ciudadanos que las controlen.
+Y luego Seattle decidi usarla para hacer que los ciudadanos despejen los desages tapados.
+Y Chicago acaba de lanzarla para hacer que la gente se registre para limpiar aceras cuando nieva.
+As, ahora sabemos de nueve ciudades que planean usarla.
+Y esto se ha difundido sin fricciones, de manera orgnica y natural.
+Si conocen un poco de tecnologa gubernamental sabrn que esto no ocurre normalmente.
+La adquisicin de software por lo general lleva un par de aos.
+El ao pasado en Boston tenamos un equipo trabajando en un proyecto que requiri tres personas durante dos meses y medio.
+Era una herramienta para que los padres pudieran elegir la mejor escuela pblica para sus hijos.
+Luego nos dijeron que de haberlo hecho por los canales normales habra llevado al menos dos aos y costado unos dos millones de dlares.
+Y eso no es nada.
+Ahora hay un proyecto en el poder judicial de California que hasta el momento ha costado 2000 millones de dlares y no funciona.
+Y hay proyectos como este en cada nivel de gobierno.
+Por eso una aplicacin que se programa en un par de das y se difunde en forma viral es una suerte de tiro de advertencia a la institucin del gobierno.
+Sugiere al gobierno mejores maneras de trabajar, no como en las empresas privadas, como mucha gente piensa que debera ser.
+Tampoco como una empresa tecnolgica, sino ms bien como la propia Internet.
+Es decir, sin restricciones, en forma abierta y generativa.
+Y eso es importante.
+Pero lo ms importante de esta aplicacin es que representa la forma de abordar la cuestin del gobierno que tiene la nueva generacin; no como un problema de una institucin anquilosada sino como un problema de accin colectiva.
+Y eso es muy bueno porque resulta que somos muy buenos para la accin colectiva con la tecnologa digital.
+Y existe una comunidad muy grande de gente que est construyendo las herramientas para que trabajemos juntos con eficacia.
+Y no slo es 'Code for America' sino que hay cientos de personas en todo el pas que contribuyen con aplicaciones cvicas todos los das en sus propias comunidades.
+No se han dado por vencidos con el gobierno.
+Sienten una gran frustracin ante eso pero no se quejan, lo arreglan.
+Y esta gente sabe algo que hemos perdido de vista.
+Y es que si dejamos de lado los sentimientos sobre la poltica, la fila en el DMV (Registro Automotor) y todas esas otras cosas que nos ponen locos, el gobierno es, en esencia, en palabras de Tim O'Reilly: "Lo que hacemos juntos porque solos no podemos".
+Ahora bien, mucha gente ha abandonado el gobierno.
+Si Uds. son una de esas personas, les pedira que lo reconsideren, porque las cosas estn cambiando.
+La poltica no cambia; el gobierno s.
+Y dado que el gobierno en ltima instancia emana de nosotros... recuerdan eso de "Nosotros, el pueblo"? El modo de pensarlo afectar la manera de producir el cambio.
+Yo no saba mucho de gobierno cuando empec con esto.
+Y como mucha gente pensaba que el gobierno consista en elegir personas para que ocupe cargos.
+Bueno, despus de dos aos he llegado a la conclusin de que el gobierno es, sobre todo, cuestin de zarigeyas.
+Este es el centro de atencin telefnica de servicios e informacin.
+Es el lugar que atiende las llamadas si uno marca 311 en EE.UU.
+Scott atendi esta llamada.
+Ingres "Zarigeya" en la base de conocimiento oficial.
+No encontr nada. Empez con control animal.
+Y finalmente dijo: "Oye, puedes abrir las puertas de la casa, poner msica bien fuerte y ver si se va?"
+Y funcion. As que bien por Scott.
+Pero eso no fue el final de las zarigeyas.
+Boston no tiene un centro de llamadas.
+Tiene una aplicacin, web y mvil, llamada 'Citizens Connect'.
+No programamos esa aplicacin.
+Fue el trabajo de personas muy inteligentes de la Oficina de Nueva Mecnica Urbana de Boston.
+Un da, esto sucedi realmente, llega este pedido: "Zarigeya en mi cubo de basura. No s si est muerta.
+Cmo hago para quitarla?"
+La dinmica de 'Citizens Connect' es diferente.
+Scott estaba hablando en persona.
+En 'Citizens Connect' todo es pblico, as que todos pueden ver esto.
+En este caso, lo vio un vecino.
+El prximo informe deca: "Me acerqu al lugar, encontr el cubo de basura detrs de la casa.
+Zarigeya? S. Viva? S.
+Di vuelta el cubo. Me fui a casa.
+Buenas noches, dulce zarigeya".
+Bastante simple.
+Esto es genial. Es la confluencia de lo digital y lo fsico.
+Y tambin es un gran ejemplo del ingreso del gobierno a la colaboracin voluntaria distribuida.
+Pero tambin es un gran ejemplo de gobierno como plataforma.
+Y aqu no necesariamente me refiero a la definicin tecnolgica de plataforma.
+Hablo de una plataforma para que las personas se autoayuden y ayuden a otros.
+Entonces, un ciudadano ayud a otro pero aqu el gobierno tuvo un papel clave:
+conect a las dos personas.
+Y podra haberlas conectado con los servicios gubernamentales de ser necesario pero el vecino es una mejor alternativa y ms barata que los servicios gubernamentales.
+Cuando un vecino ayuda a otro, fortalecemos las comunidades.
+Si llamamos a control de animales, eso cuesta mucho dinero.
+Una cosa importante que tenemos que pensar sobre el gobierno es que no es lo mismo que la poltica.
+Mucha gente lo entiende, pero piensa que uno es la entrada del otro.
+Que nuestra entrada al sistema de gobierno es el voto.
+Cuntas veces han elegido a un lder poltico? A veces gastamos mucha energa para elegir un nuevo lder poltico y luego esperamos que el gobierno refleje nuestros valores y satisfaga nuestras necesidades pero luego no vemos cambios.
+Eso se debe a que el gobierno es como un ocano inmenso y la poltica es la capa superficial de 15 cm.
+Por debajo est lo que llamamos burocracia.
+Y decimos esa palabra con mucho desprecio.
+Pero es ese desprecio lo que mantiene eso que nos pertenece eso que financiamos como algo que opera en nuestra contra, esa otra cosa, y en consecuencia estamos perdiendo el poder.
+La gente cree que la poltica es sensual.
+Si queremos que esta institucin funcione tendremos que hacer que la burocracia sea sensual.
+Porque es all donde ocurre el verdadero trabajo de gobierno.
+Tenemos que colaborar con la maquinaria de gobierno.
+Eso hace el movimiento OcupaLaSEC.
+Los han visto?
+Es un grupo de ciudadanos preocupados que han escrito un informe muy detallado de 325 pginas en respuesta al pedido de la SEC (Comisin de Valores) sobre el proyecto de reforma financiera.
+Eso no es activismo poltico, es activismo burocrtico.
+Y para los que nos hemos resignado ante el gobierno, es hora de que nos preguntemos qu mundo queremos dejarle a nuestros hijos.
+Hay que ver los desafos enormes que ellos tendrn que enfrentar.
+Realmente creen que llegaremos a donde tenemos que ir sin solucionar la institucin que puede actuar en nombre de todos?
+No podemos prescindir de gobierno, lo necesitamos para ser ms eficaces.
+La buena noticia es que con la tecnologa es posible replantear de raz la funcin de gobierno de modo que pueda expandirse fortaleciendo a la sociedad civil.
+Hay una generacin que creci con Internet y sabe que no es tan difcil actuar mancomunadamente, slo hay que articular los sistemas de la forma correcta.
+El promedio de edad de nuestros miembros es de 28 aos as que yo, a regaadientes, soy una generacin mayor que muchos de ellos.
+Esta es una generacin que ha crecido tomando la palabra y dando eso casi por sentado.
