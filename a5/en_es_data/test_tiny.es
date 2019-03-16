@@ -1,4 +1,3 @@
-Es una historia verdadera -- cada parte de esto es verdad.
-Poco despus de que Tipper y yo dejamos la -- (Sollozos fingidos) -- Casa Blanca --  -- estbamos viajando desde nuestra casa en Nashville a una pequea granja que tenemos 50 millas al este de Nashville --
-conduciendo nosotros mismos.
-S que suena como cualquier cosa para ustedes, pero --  -- mir en el retrovisor y de repente simplemente me golpe. No haba caravana de vehculos all atrs.
+Y siempre le digo a la gente que no quiero parecer como un cientfico.
+Puedo vestirme como agricultor, o con ropa de cuero, y nunca nadie ha elegido un agricultor.
+Esa es la pintura de un crculo.

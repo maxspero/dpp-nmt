@@ -27,11 +27,14 @@ from char_decoder import CharDecoder
 from dpp import sample_k_dpp
 import random
 import time
+import numpy as np
 
 TOGGLE_PRINT = False
-PRINT_TIMER = True
+PRINT_TIMER = False
 PRINT_HYPOTHESES = False
 PRINT_HYPOTHESIS_TREE = False
+INITIAL_SAMPLE_SIZE = 100
+ADD_TOP_N = 0
 
 Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
@@ -488,16 +491,17 @@ class DPPNMT(nn.Module):
         # the corresponding element of log_p_t
         # TODO: need to duplicate each num_hyps times
         self.timer()
-        top_k_to_sample_from = 25
-        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=top_k_to_sample_from)
+        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=INITIAL_SAMPLE_SIZE)
         self.timer("topk")
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
         # TODO: minimize data movement
-        embeddings = self.word_embeddings()
-        # att_t_repeated = att_t_repeated.contiguous().view(-1, embed_size)
+        # print("x", x.shape)
+        # att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
+        # embeddings_repeated = embeddings.repeat(1, vocab_size).view(-1, embed_size)
         # x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
         # x = x[top_cand_hyp_pos]
+        embeddings = self.word_embeddings()
         # print(top_cand_hyp_pos)
         x_list = []
         for hyp_pos in top_cand_hyp_pos:
@@ -507,7 +511,6 @@ class DPPNMT(nn.Module):
             x_list.append(x_partial.unsqueeze(0))
         x = torch.cat(x_list, dim=0)
         self.timer("newx")
-        # print("x", x.shape)
 
         batch_size = x.shape[0]
         new_exp_src_encodings = src_encodings.expand(batch_size,
@@ -561,12 +564,23 @@ class DPPNMT(nn.Module):
         except Exception as e:
             print("Error sampling from L, falling back to top k: %s" % e)
             return self.topk(contiuating_hyp_scores, live_hyp_num)
-            
+
+        if ADD_TOP_N > 0:
+            new_top_cand_hyp_pos = np.unique(np.append(new_top_cand_hyp_pos, 
+                range(ADD_TOP_N)
+            ))
             
         self.timer("sample_k_dpp")
         top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
         # top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos].squeeze(0)
         top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
+
+        scores1, pos1 = self.topk(contiuating_hyp_scores, live_hyp_num)
+        # print('topk pos', pos1)
+        # print('top_cand_hyp_pos', top_cand_hyp_pos)
+        # print('topk scores', scores1)
+        # print('top_cand_hyp_pos', top_cand_hyp_scores)
+
         if TOGGLE_PRINT:
             print("vocab size", vocab_size)
             print("att_t_repeated", att_t_repeated.shape)
@@ -586,4 +600,5 @@ class DPPNMT(nn.Module):
             print("new_top_hyp_pos", top_cand_hyp_pos.shape)
             print("new_top_hyp_scores", top_cand_hyp_scores.shape)
             print('top chosen: ', new_top_cand_hyp_pos)
+
         return top_cand_hyp_scores, top_cand_hyp_pos
