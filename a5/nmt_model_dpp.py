@@ -29,7 +29,7 @@ import random
 import time
 
 TOGGLE_PRINT = False
-PRINT_TIMER = False
+PRINT_TIMER = True
 PRINT_HYPOTHESES = False
 PRINT_HYPOTHESIS_TREE = False
 
@@ -493,42 +493,49 @@ class DPPNMT(nn.Module):
         self.timer("topk")
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
-        #att_t_flattened = att_t.flatten()
-        #att_t_repeated = att_t_flattened.expand(vocab_size, -1)
         # TODO: minimize data movement
-        # .repeat is super slow because its data copies
-        # but so is .contiguous 
-        # att_t_repeated = att_t_repeated.contiguous().view(-1, embed_size)
-        self.timer("att_repeat")
-        att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
-        self.timer("att_repeat2")
-        # print("att_t_repeated", att_t_repeated.shape)
-        # print("att_t_repeated2", att_t_repeated2.shape)
-        self.timer("att_repeat")
         embeddings = self.word_embeddings()
-        # embeddings_repeated = embeddings.expand(embeddings.shape[0] * num_hyps, -1)
-        embeddings_repeated =  embeddings.repeat(num_hyps, 1)
-        self.timer("embeddings_repeat")
-        x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
-        x=x[top_cand_hyp_pos]
+        # att_t_repeated = att_t_repeated.contiguous().view(-1, embed_size)
+        # x = torch.cat([embeddings_repeated, att_t_repeated], dim=-1)
+        # x = x[top_cand_hyp_pos]
+        # print(top_cand_hyp_pos)
+        x_list = []
+        for hyp_pos in top_cand_hyp_pos:
+            emb_hyp = embeddings[hyp_pos % vocab_size]
+            att_hyp = att_t[hyp_pos/vocab_size]
+            x_partial = torch.cat([emb_hyp, att_hyp])
+            x_list.append(x_partial.unsqueeze(0))
+        x = torch.cat(x_list, dim=0)
+        self.timer("newx")
+        # print("x", x.shape)
+
         batch_size = x.shape[0]
         new_exp_src_encodings = src_encodings.expand(batch_size,
-                                                 src_encodings.size(1),
-                                                 src_encodings.size(2))
+                                                     src_encodings.size(1),
+                                                     src_encodings.size(2))
 
         new_exp_src_encodings_att_linear = src_encodings_att_linear.expand(batch_size,
                                                                        src_encodings_att_linear.size(1),
                                                                        src_encodings_att_linear.size(2))
 
         # Might have to stretch h_t, and cell_t
-        # new_h_t = h_t.expand(vocab_size * h_t.shape[0], embed_size)
-        # new_cell_t = cell_t.expand(vocab_size * h_t.shape[0], embed_size)
-        new_h_t = h_t.repeat(1, vocab_size).view(-1, embed_size)
-        new_cell_t = cell_t.repeat(1, vocab_size).view(-1, embed_size)
+        # new_h_t = h_t.repeat(1, vocab_size).view(-1, embed_size)
+        # new_cell_t = cell_t.repeat(1, vocab_size).view(-1, embed_size)
+        # new_h_t = new_h_t[top_cand_hyp_pos]
+        # new_cell_t = new_cell_t[top_cand_hyp_pos]
 
-        self.timer("more repeats")
-        new_h_t = new_h_t[top_cand_hyp_pos]
-        new_cell_t = new_cell_t[top_cand_hyp_pos]
+        self.timer()
+        new_h_t_list = []
+        new_cell_t_list = []
+        for hyp_pos in top_cand_hyp_pos:
+            h_t_hyp = h_t[hyp_pos/vocab_size]
+            cell_t_hyp = cell_t[hyp_pos/vocab_size]
+            new_h_t_list.append(h_t_hyp.unsqueeze(0))
+            new_cell_t_list.append(cell_t_hyp.unsqueeze(0))
+        new_h_t = torch.cat(new_h_t_list, dim=0)
+        new_cell_t = torch.cat(new_cell_t_list, dim=0)
+        self.timer("new_h_t/cell_t")
+
         (h_t_dpp, _), _, _  = self.step(x, (new_h_t, new_cell_t),
                                         new_exp_src_encodings, new_exp_src_encodings_att_linear, enc_masks=None)
         self.timer("step")

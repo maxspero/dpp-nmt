@@ -23,8 +23,8 @@ Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
 import random
 
-PRINT_HYPOTHESES = True
-PRINT_HYPOTHESIS_TREE = True
+PRINT_HYPOTHESES = False
+PRINT_HYPOTHESIS_TREE = False
 
 class NMT(nn.Module):
     """ Simple Neural Machine Translation Model:
