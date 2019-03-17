@@ -16,6 +16,7 @@ Options:
     -h --help                               show this screen.
     --cuda                                  use GPU
     --dpp                                   use DPP model 
+    --sampling                              sample instead of top k for beam search
     --train-src=<file>                      train source file
     --train-tgt=<file>                      train target file
     --dev-src=<file>                        dev source file
@@ -275,11 +276,15 @@ def decode(args: Dict[str, str]):
         test_data_tgt = read_corpus(args['TEST_TARGET_FILE'], source='tgt')
 
     print("load model from {}".format(args['MODEL_PATH']), file=sys.stderr)
-    if args['--dpp']:
+    if args['--dpp'] and args['--sampling']:
+        print("Error: cannot specify --dpp and --sampling simultaneously")
+    elif args['--dpp']:
         print("Loading DPP Model")
         model = DPPNMT.load(args['MODEL_PATH'])
     else:
         model = NMT.load(args['MODEL_PATH'])
+        if args['--sampling']:
+            model.sampling = True
 
     if args['--cuda']:
         model = model.to(torch.device("cuda:0"))

@@ -82,6 +82,7 @@ class NMT(nn.Module):
         self.target_vocab_projection = nn.Linear(self.hidden_size, len(self.vocab.tgt))
         self.dropout = nn.Dropout(p=self.dropout_rate)
 
+        self.sampling = False
         ### END YOUR CODE
 
 
@@ -429,7 +430,13 @@ class NMT(nn.Module):
 
             live_hyp_num = beam_size - len(completed_hypotheses)
             contiuating_hyp_scores = (hyp_scores.unsqueeze(1).expand_as(log_p_t) + log_p_t).view(-1)
-            top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
+            if self.sampling:
+                scores_exp = torch.exp(contiuating_hyp_scores)
+                print(scores_exp)
+                top_cand_hyp_pos = torch.multinomial(scores_exp, live_hyp_num, replacement=False)
+                top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
+            else: 
+                top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
             hyp_word_ids = top_cand_hyp_pos % len(self.vocab.tgt)
@@ -486,6 +493,7 @@ class NMT(nn.Module):
         args = params['args']
         model = NMT(vocab=params['vocab'], **args)
         model.load_state_dict(params['state_dict'])
+        model.sampling = False
 
         return model
 

@@ -64,6 +64,7 @@ class NMT(nn.Module):
            self.charDecoder = CharDecoder(hidden_size, target_vocab=vocab.tgt) 
         else:
            self.charDecoder = None
+        self.sampling = False
 
     def forward(self, source: List[List[str]], target: List[List[str]]) -> torch.Tensor:
         """ Take a mini-batch of source and target sentences, compute the log-likelihood of
@@ -329,7 +330,10 @@ class NMT(nn.Module):
 
             live_hyp_num = beam_size - len(completed_hypotheses)
             contiuating_hyp_scores = (hyp_scores.unsqueeze(1).expand_as(log_p_t) + log_p_t).view(-1)
-            top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
+            if self.sampling:
+                top_cand_hyp_scores, top_cand_hyp_pos = torch.multinomial(contiuating_hyp_scores, live_hyp_num, replacement=False)
+            else: 
+                top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
             hyp_word_ids = top_cand_hyp_pos % len(self.vocab.tgt)
@@ -404,6 +408,7 @@ class NMT(nn.Module):
         model = NMT(vocab=params['vocab'], no_char_decoder=no_char_decoder, **args)
         model.load_state_dict(params['state_dict'])
 
+        model.sampling = False
         return model
 
     def save(self, path: str):
