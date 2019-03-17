@@ -10,6 +10,7 @@ Sahil Chopra <schopra8@stanford.edu>
 Usage:
     run_comparison.py MODEL_PATH TEST_SOURCE_FILE 
     run_comparison.py MODEL_PATH TEST_SOURCE_FILE TEST_TARGET_FILE 
+    run_comparison.py MODEL_PATH TEST_SOURCE_FILE TEST_TARGET_FILE INDEX
 
 Options:
     --seed=<int>                            seed [default: 0]
@@ -49,19 +50,30 @@ def decode(args: Dict[str, str]):
         test_data_tgt = read_corpus(args['TEST_TARGET_FILE'], source='tgt')
 
     print("load model from {}".format(args['MODEL_PATH']), file=sys.stderr)
-    model = NMT.load(args['MODEL_PATH'])
+    model1 = NMT.load(args['MODEL_PATH'])
     model2 = DPPNMT.load(args['MODEL_PATH'])
 
-    beam_search2(
-        model, 
-        model2,
-        test_data_src,
-        #int(args['--beam-size']),
-        5,
-        #int(args['--max-decoding-time-step']), 
-        70,
-        test_data_tgt,
-    )
+    if args['INDEX']:
+        index = int(args['INDEX'])
+        beam_search2(
+            model1, 
+            model2,
+            [test_data_src[index]],
+            5,
+            70,
+            [test_data_tgt[index]],
+        )
+    else:
+        beam_search2(
+            model1, 
+            model2,
+            test_data_src,
+            #int(args['--beam-size']),
+            5,
+            #int(args['--max-decoding-time-step']), 
+            70,
+            test_data_tgt,
+        )
 
 
 def beam_search2(model1: NMT, model2: DPPNMT, test_data_src: List[List[str]], beam_size: int, max_decoding_time_step: int, test_data_tgt) -> List[List[Hypothesis]]:
@@ -75,7 +87,8 @@ def beam_search2(model1: NMT, model2: DPPNMT, test_data_src: List[List[str]], be
     model1.eval()
     model2.eval()
 
-    i = 0;
+
+    i = 0
     with torch.no_grad():
         for src_sent in tqdm(test_data_src, desc='Decoding', file=sys.stdout):
             hyp1 = model1.beam_search(src_sent, beam_size=beam_size, max_decoding_time_step=max_decoding_time_step)
@@ -92,8 +105,6 @@ def beam_search2(model1: NMT, model2: DPPNMT, test_data_src: List[List[str]], be
                 print(" ".join(ref))
             i += 1
 
-
-    return hypotheses
 
 
 def main():
