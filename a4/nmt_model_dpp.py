@@ -528,6 +528,9 @@ class DPPNMT(nn.Module):
 
         completed_hypotheses.sort(key=lambda hyp: hyp.score, reverse=True)
 
+        if PRINT_HYPOTHESES:
+            print(completed_hypotheses)
+
         return completed_hypotheses
 
     @property

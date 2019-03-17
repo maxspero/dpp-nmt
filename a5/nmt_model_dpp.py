@@ -34,7 +34,7 @@ PRINT_TIMER = False
 PRINT_HYPOTHESES = False
 PRINT_HYPOTHESIS_TREE = False
 # INITIAL_SAMPLE_SIZE = 100
-INITIAL_SAMPLE_SIZE_RATIO = 5
+INITIAL_SAMPLE_SIZE_RATIO = 3
 ADD_TOP_N = 0
 
 Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
