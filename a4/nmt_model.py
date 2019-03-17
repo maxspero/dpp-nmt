@@ -17,7 +17,6 @@ import torch.nn.functional as F
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
 
 from model_embeddings import ModelEmbeddings
-from dpp import sample_k_dpp
 Hypothesis = namedtuple('Hypothesis', ['value', 'score'])
 
 
@@ -405,16 +404,6 @@ class NMT(nn.Module):
         completed_hypotheses = []
 
         t = 0
-
-        ######### ALSO ADDED THIS ############
-        word_ids = torch.tensor(
-            [self.vocab.tgt[self.vocab.tgt.id2word[id]]
-                for id in range(len(self.vocab.tgt))],
-            dtype=torch.long, device=self.device)
-        embeddings = self.model_embeddings.target(word_ids)
-        # print("ebeddings", embeddings.shape)
-        ######### END ############
-
         while len(completed_hypotheses) < beam_size and t < max_decoding_time_step:
             t += 1
             hyp_num = len(hypotheses)
@@ -430,90 +419,17 @@ class NMT(nn.Module):
             y_tm1 = torch.tensor([self.vocab.tgt[hyp[-1]] for hyp in hypotheses], dtype=torch.long, device=self.device)
             y_t_embed = self.model_embeddings.target(y_tm1)
 
-            # print("att_tm1", att_tm1.shape) # num_hyps x target_embed_size
-            # print("y_t_embed", y_t_embed.shape)
             x = torch.cat([y_t_embed, att_tm1], dim=-1)
-            # print("x", x.shape)
 
-            # print("h_tm1", h_tm1[0].shape, h_tm1[1].shape) # same as x
-            # (num_hyps x target_embed_size)
             (h_t, cell_t), att_t, _  = self.step(x, h_tm1,
                                                       exp_src_encodings, exp_src_encodings_att_linear, enc_masks=None)
-            # print("h_t", h_t.shape)
-            # print("cell_t", cell_t.shape)
-            # print("att_t", att_t.shape)
 
             # log probabilities over target words
             log_p_t = F.log_softmax(self.target_vocab_projection(att_t), dim=-1)
 
             live_hyp_num = beam_size - len(completed_hypotheses)
             contiuating_hyp_scores = (hyp_scores.unsqueeze(1).expand_as(log_p_t) + log_p_t).view(-1)
-
-            # print(hypotheses)
-            ###### START HERE #######
-            top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=3*live_hyp_num)
-
-
-            # for every element in contiuating_hyp_scores, I need to get the targe
-            # word embedding, take another step, get that output, normalize, and multiply by
-            # the corresponding element of log_p_t
-            # TODO: need to duplicate each num_hyps times
-            vocab_size = len(self.vocab.tgt)
-            num_hyps, embed_size = att_t.shape
-            att_t_repeated = att_t.repeat(1, vocab_size).view(-1, embed_size)
-            # print("att_t_repeated", att_t_repeated.shape)
-            x = torch.cat([embeddings.repeat(num_hyps, 1), att_t_repeated], dim=-1)
-            # print("top_cand_hyp_pos", top_cand_hyp_pos.shape)
-            x=x[top_cand_hyp_pos]
-            # print("new_x", x.shape)
-            batch_size = x.shape[0]
-            new_exp_src_encodings = src_encodings.expand(batch_size,
-                                                     src_encodings.size(1),
-                                                     src_encodings.size(2))
-
-            new_exp_src_encodings_att_linear = src_encodings_att_linear.expand(batch_size,
-                                                                           src_encodings_att_linear.size(1),
-                                                                           src_encodings_att_linear.size(2))
-
-            # print("src_encodings", new_exp_src_encodings.shape)
-            # print("src_encodings_att", new_exp_src_encodings_att_linear.shape)
-            # Might have to stretch h_t, and cell_t
-            new_h_t = h_t.repeat(1, vocab_size).view(-1, embed_size)
-            new_cell_t = cell_t.repeat(1, vocab_size).view(-1, embed_size)
-            new_h_t = new_h_t[top_cand_hyp_pos]
-            new_cell_t = new_cell_t[top_cand_hyp_pos]
-            # print("new_h_t", new_h_t.shape)
-            # print("new_cell_t", new_cell_t.shape)
-            (h_t_dpp, _), _, _  = self.step(x, (new_h_t, new_cell_t),
-                                            new_exp_src_encodings, new_exp_src_encodings_att_linear, enc_masks=None)
-            # num_hyps = len(contiuating_hyp_scores.shape[0])/len(self.vocab.tgt)
-
-            # print("hidden", h_t_dpp.shape)
-            norms = torch.norm(h_t_dpp, p=2, dim=1, keepdim=True)
-            if norms.is_cuda:
-                norms = norms.cpu()
-            # print("norms", norms.shape)
-            unit_vectors = h_t_dpp.div(norms.expand_as(h_t_dpp))
-            # print("unit_vectors", unit_vectors.shape)
-            # new_p_t = log_p_t.repeat(1, vocab_size).view(-1, vocab_size)
-            # print("new_p_t", log_p_t.shape)
-            quality_scores = torch.exp(top_cand_hyp_scores.unsqueeze(1)).expand_as(unit_vectors)
-            # TODO: maybe normalize the quality_scores?
-            features = unit_vectors * quality_scores
-            L = torch.mm(features, features.t())
-            # print("L", L.shape)
-            # print("L", L)
-
-
-
-            new_top_cand_hyp_pos = sample_k_dpp(L, k=live_hyp_num)
-            # print("new_top_cand_hyp_pos", new_top_cand_hyp_pos)
-            top_cand_hyp_pos = top_cand_hyp_pos[new_top_cand_hyp_pos]
-            # print(top_cand_hyp_pos)
-            top_cand_hyp_scores = contiuating_hyp_scores[top_cand_hyp_pos]
-            # print("new_top_hyp_pos", top_cand_hyp_pos.shape)
-            # print("new_top_hyp_scores", top_cand_hyp_scores.shape)
-            #### END HERE ####
+            top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=live_hyp_num)
 
             prev_hyp_ids = top_cand_hyp_pos / len(self.vocab.tgt)
             hyp_word_ids = top_cand_hyp_pos % len(self.vocab.tgt)
