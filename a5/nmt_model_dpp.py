@@ -548,8 +548,8 @@ class DPPNMT(nn.Module):
         # num_hyps = len(contiuating_hyp_scores.shape[0])/len(self.vocab.tgt)
 
         norms = torch.norm(h_t_dpp, p=2, dim=1, keepdim=True)
-        if norms.is_cuda:
-            norms = norms.cpu()
+        #if norms.is_cuda:
+        #    norms = norms.cpu()
         unit_vectors = h_t_dpp.div(norms.expand_as(h_t_dpp))
         # new_p_t = log_p_t.repeat(1, vocab_size).view(-1, vocab_size)
         # print("new_p_t", log_p_t.shape)
@@ -559,7 +559,7 @@ class DPPNMT(nn.Module):
         quality_scores = torch.pow(quality_scores, 1/2)
         features = unit_vectors * quality_scores
         self.timer("scores")
-        L = torch.mm(features, features.t())
+        L = torch.mm(features, features.t()).cpu()
         self.timer("L")
 
         try:
