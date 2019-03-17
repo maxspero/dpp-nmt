@@ -27,7 +27,7 @@ TOGGLE_PRINT = False
 PRINT_TIMER = False
 PRINT_HYPOTHESES = False
 PRINT_HYPOTHESIS_TREE = False
-INITIAL_SAMPLE_SIZE = 100
+INITIAL_SAMPLE_SIZE_RATIO= 3
 ADD_TOP_N = 0
 
 
@@ -486,6 +486,7 @@ class DPPNMT(nn.Module):
                 cell_t,
                 contiuating_hyp_scores,
                 live_hyp_num,
+                beam_size,
             )
             #### END DPP HERE ####
 
@@ -588,13 +589,13 @@ class DPPNMT(nn.Module):
             self.timer("Embeddings")
         return self.word_embeddings_cached
 
-    def kdpp(self, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, contiuating_hyp_scores, live_hyp_num):
+    def kdpp(self, att_t, src_encodings, src_encodings_att_linear, h_t, cell_t, contiuating_hyp_scores, live_hyp_num, beam_size):
         # for every element in contiuating_hyp_scores, I need to get the target
         # word embedding, take another step, get that output, normalize, and multiply by
         # the corresponding element of log_p_t
         # TODO: need to duplicate each num_hyps times
         self.timer()
-        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=INITIAL_SAMPLE_SIZE)
+        top_cand_hyp_scores, top_cand_hyp_pos = torch.topk(contiuating_hyp_scores, k=INITIAL_SAMPLE_SIZE_RATIO * beam_size)
         self.timer("topk")
         vocab_size = len(self.vocab.tgt.word2id)
         num_hyps, embed_size = att_t.shape
